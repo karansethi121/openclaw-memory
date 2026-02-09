@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One4Health - Ashwagandha Gummies Packaging</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Playfair+Display:wght@900&family=Open+Sans:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        .page-title {
+            text-align: center;
+            color: #2E7D32;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .labels-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .label-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            width: 600px;
+        }
+
+        .label-title {
+            color: #1A237E;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 3px solid #C9A227;
+            padding-bottom: 10px;
+        }
+
+        .label {
+            width: 420px;
+            height: 220px;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .label-front {
+            background: linear-gradient(180deg, #1A237E 0%, #1A237E 12%, #2E7D32 12%, #4CAF50 100%);
+        }
+
+        .label-back {
+            background: white;
+        }
+
+        /* Front Label Elements */
+        .top-bar {
+            background: #1A237E;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 2px solid #C9A227;
+        }
+
+        .brand-name {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        .product-name-container {
+            background: white;
+            padding: 15px 10px;
+            text-align: center;
+            margin: 8px 12px;
+            border-radius: 10px;
+        }
+
+        .product-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 900;
+            color: #2E7D32;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .accent-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #C9A227;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        .absorption-badge {
+            background: #1A237E;
+            color: white;
+            width: 110px;
+            height: 45px;
+            border-radius: 25px;
+            margin: 8px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #C9A227;
+        }
+
+        .absorption-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 10px;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .absorption-text .stars {
+            font-size: 7px;
+            color: #FFD700;
+        }
+
+        .gummy-illustration {
+            background: linear-gradient(135deg, #E8F5E9 0%, #ffffff 100%);
+            height: 60px;
+            margin: 8px 12px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .gummy {
+            width: 25px;
+            height: 30px;
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            border-radius: 10px 10px 15px 15px;
+            margin: 0 5px;
+            position: relative;
+            box-shadow: 0 3px 8px rgba(46,125,50,0.3);
+        }
+
+        .gummy::before {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: rgba(255,255,255,0.4);
+            border-radius: 50%;
+            top: 5px;
+            left: 6px;
+        }
+
+        .pack-size {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #1A237E;
+            font-size: 12px;
+            background: white;
+            margin: 8px 12px;
+            padding: 6px;
+            border-radius: 8px;
+        }
+
+        .dosage-badge {
+            background: #2E7D32;
+            color: white;
+            width: 120px;
+            margin: 5px auto;
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .benefit-badges {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 8px 0;
+        }
+
+        .badges-row {
+            background: white;
+            padding: 6px;
+            margin: 0 12px;
+            border-radius: 10px;
+        }
+
+        .mini-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 7px;
+        }
+
+        .badge-sugar { background: #4CAF50; color: white; }
+        .badge-vegan { background: #C9A227; color: white; }
+        .badge-halal { background: #1A237E; color: white; }
+
+        .bioperine-text {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 8px;
+            color: #757575;
+            margin-top: 5px;
+        }
+
+        .bottom-bar {
+            background: #1A237E;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 15px;
+            margin-top: 8px;
+        }
+
+        .qr-placeholder {
+            width: 16px;
+            height: 16px;
+            background: white;
+            border: 1px solid #C9A227;
+        }
+
+        .barcode-placeholder {
+            width: 50px;
+            height: 14px;
+            background: linear-gradient(90deg,
+                black 2px, white 2px,
+                black 4px, white 4px,
+                black 6px, white 6px,
+                black 10px, white 10px,
+                black 12px, white 12px,
+                black 14px, white 14px,
+                black 18px, white 18px,
+                black 20px, white 20px,
+                black 24px, white 24px,
+                black 28px
+            );
+        }
+
+        /* Back Label Elements */
+        .back-header {
+            background: #2E7D32;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 3px solid #C9A227;
+        }
+
+        .back-product-name {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .back-brand {
+            font-size: 10px;
+            opacity: 0.9;
+        }
+
+        .back-content {
+            padding: 12px;
+            font-size: 7px;
+            line-height: 1.4;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 8px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .section-header {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .section-header.blue { color: #1A237E; }
+        .section-header.gold { color: #C9A227; }
+        .section-header.green { color: #2E7D32; }
+
+        .data-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .data-label { font-weight: 600; }
+        .data-value { font-weight: 400; }
+
+        .ingredients-list {
+            font-size: 6px;
+            color: #555;
+            line-height: 1.3;
+        }
+
+        .quality-box {
+            background: #E8F5E9;
+            padding: 6px;
+            border-radius: 5px;
+            border-left: 3px solid #2E7D32;
+            font-size: 6px;
+        }
+
+        .manufacturing {
+            font-size: 6px;
+            color: #666;
+            line-height: 1.3;
+        }
+
+        .made-in-india {
+            text-align: center;
+            background: #2E7D32;
+            color: white;
+            padding: 4px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 8px;
+            border-radius: 5px;
+            margin-top: 6px;
+        }
+
+        /* Export button */
+        .export-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .export-btn {
+            background: #2E7D32;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            box-shadow: 0 5px 15px rgba(46,125,50,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .export-btn:hover {
+            background: #1B5E20;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(46,125,50,0.4);
+        }
+
+        .instructions {
+            text-align: center;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .instructions h3 {
+            color: #2E7D32;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 15px;
+        }
+
+        @media print {
+            body { background: white; }
+            .page-title, .export-section, .instructions { display: none; }
+            .label { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="page-title">🎨 One4Health - Ashwagandha Gummies Packaging Design</h1>
+
+    <div class="labels-container">
+        <!-- FRONT LABEL -->
+        <div class="label-card">
+            <h2 class="label-title">FRONT LABEL</h2>
+            <div id="front-label" class="label label-front">
+                <div class="top-bar">
+                    <div class="brand-name" contenteditable="true">ONE4HEALTH</div>
+                </div>
+
+                <div class="product-name-container">
+                    <div class="product-name" contenteditable="true">ASHWAGANDHA</div>
+                    <div class="product-name" style="font-size: 24px;" contenteditable="true">GUMMIES</div>
+                    <div class="accent-text" contenteditable="true">PREMIUM KSM-66 EXTRACT</div>
+                </div>
+
+                <div class="absorption-badge">
+                    <div class="absorption-text">
+                        <span class="stars">⭐⭐⭐⭐⭐</span><br>
+                        30X ABSORPTION
+                    </div>
+                </div>
+
+                <div class="gummy-illustration">
+                    <div class="gummy"></div>
+                    <div class="gummy"></div>
+                    <div class="gummy"></div>
+                </div>
+
+                <div class="pack-size" contenteditable="true">30 GUMMIES │ 30 DAY SUPPLY</div>
+                <div class="dosage-badge" contenteditable="true">1 GUMMY PER DAY</div>
+
+                <div class="badges-row">
+                    <div class="benefit-badges">
+                        <div class="mini-badge badge-sugar" contenteditable="true">✅ Sugar-Free</div>
+                        <div class="mini-badge badge-vegan" contenteditable="true">✅ Vegan</div>
+                        <div class="mini-badge badge-halal" contenteditable="true">✅ Halal</div>
+                    </div>
+                </div>
+
+                <div class="bioperine-text" contenteditable="true">Made with BioPerine®</div>
+
+                <div class="bottom-bar">
+                    <div class="qr-placeholder" title="QR Code Placeholder"></div>
+                    <div class="barcode-placeholder" title="Barcode Placeholder"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACK LABEL -->
+        <div class="label-card">
+            <h2 class="label-title">BACK LABEL</h2>
+            <div id="back-label" class="label label-back">
+                <div class="back-header">
+                    <div class="back-product-name" contenteditable="true">ASHWAGANDHA GUMMIES</div>
+                    <div class="back-brand" contenteditable="true">One4Health</div>
+                </div>
+
+                <div class="back-content">
+                    <div class="section">
+                        <div class="section-header blue">⚠️ SUPPLEMENT FACTS</div>
+                        <div class="data-row">
+                            <span class="data-label">Serving Size:</span>
+                            <span class="data-value">1 Gummy</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label">Servings Per Container:</span>
+                            <span class="data-value" contenteditable="true">30</span>
+                        </div>
+                        <hr style="margin: 4px 0; border: 1px solid #ccc;">
+                        <div class="data-row" style="margin-top: 4px;">
+                            <span class="data-label" style="color: #1A237E;">Ashwagandha (KSM-66)</span>
+                            <span class="data-value" contenteditable="true">300 mg</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" style="color: #1A237E;">Vitamin D3 (Vegan)</span>
+                            <span class="data-value" contenteditable="true">400 IU</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" style="color: #1A237E;">BioPerine</span>
+                            <span class="data-value" contenteditable="true">10 mg</span>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-header gold">** INGREDIENTS</div>
+                        <div class="ingredients-list" contenteditable="true">
+                            Ashwagandha Extract (KSM-66), Vitamin D3 (from Lichen), Black Pepper Extract (BioPerine), Pectin, Natural Flavors, Stevia, Citric Acid, Natural Color.
+                        </div>
+                    </div>
+
+                    <div class="quality-box" contenteditable="true">
+                        ✅ QUALITY ASSURED: Lab Tested | Halal Certified | COA Available @ one4health.com
+                    </div>
+
+                    <div class="section">
+                        <div class="section-header blue">📦 STORAGE</div>
+                        <div style="font-size: 6px;" contenteditable="true">
+                            Store in cool, dry place away from direct sunlight. Keep out of reach of children.
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-header blue">⚠️ USAGE INSTRUCTIONS</div>
+                        <div style="font-size: 6px;" contenteditable="true">
+                            Take 1 gummy daily with water. Results may vary by individual. Not for medicinal use. Consult physician if pregnant/lactating.
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="manufacturing" contenteditable="true">
+                            <div><strong>Manufactured for:</strong> One4Health Nutrition Pvt Ltd</div>
+                            <div><strong>FSSAI License:</strong> 100xxxxxxx</div>
+                            <div><strong>Mfg Date:</strong> DD/MM/YYYY <strong>Best Before:</strong> DD/MM/YYYY</div>
+                            <div><strong>Net Weight:</strong> 150g <strong>Batch No:</strong> XXXXXXXX</div>
+                        </div>
+                    </div>
+
+                    <div class="made-in-india" contenteditable="true">🌍 MADE IN INDIA</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="export-section">
+        <button class="export-btn" onclick="exportToPDF()">📥 Export as PDF (Print View)</button>
+    </div>
+
+    <div class="instructions">
+        <h3>📋 HOW TO USE THIS DESIGN</h3>
+        <p><strong>To Edit:</strong> Click on any text to edit it directly in the browser! All text is editable.</p>
+        <p><strong>To Export:</strong> Click "Export as PDF" or use your browser's Print function (Ctrl+P / Cmd+P). Save as PDF at 300 DPI for print.</p>
+        <p><strong>For Canva:</strong> Take a screenshot of each label and import into Canva, OR print to PDF and upload to Canva as a template.</p>
+        <p><strong>Professional Print:</strong> Save as high-resolution PDF and send to your packaging printer. Design is CMYK-ready (convert if needed).</p>
+    </div>
+
+    <script>
+        function exportToPDF() {
+            window.print();
+        }
+
+        // Make sure all contenteditable elements have visual feedback
+        document.querySelectorAll('[contenteditable="true"]').forEach(el => {
+            el.addEventListener('focus', function() {
+                this.style.outline = '2px dashed #C9A227';
+            });
+            el.addEventListener('blur', function() {
+                this.style.outline = 'none';
+            });
+        });
+    </script>
+</body>
+</html>

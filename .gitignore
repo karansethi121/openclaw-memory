@@ -1,0 +1,9 @@
+# Embedded git repositories
+clawhub-repo/
+openclaw-skills-repo/
+
+# Existing gitignore patterns
+node_modules/
+*.log
+.env
+.DS_Store

@@ -1,0 +1,3 @@
+# Prompt Enhancer Log
+# Format: JSON entries, one per line
+# Fields: timestamp, original, enhanced, qualityScore, enhancements, suggestions, modified, userDecision{"modified":true,"timestamp":"2026-02-03T16:54:53.3482531+00:00","suggestions":"Consider adding: deadline, format preference, target platformWhat does success look like? What\u0027s the expected outcome?","original":"build something","enhancements":[],"enhanced":"build something","userDecision":"auto-approved","qualityScore":0.52}

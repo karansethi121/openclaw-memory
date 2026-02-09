@@ -1,0 +1,79 @@
+{
+  "highFrequencyTrading": {
+    "mode": "AGGRESSIVE",
+    "targetTradesPerDay": 100,
+    "executionIntervalSeconds": 60,
+    "maxParallelStrategies": 5
+  },
+  "strategies": [
+    {
+      "name": "scalping-1min",
+      "type": "scalping",
+      "timeframe": "1m",
+      "takeProfitPercent": 0.3,
+      "stopLossPercent": 0.15,
+      "positionSizePercent": 2,
+      "enabled": true,
+      "pairs": ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT"]
+    },
+    {
+      "name": "scalping-30s",
+      "type": "scalping",
+      "timeframe": "30s",
+      "takeProfitPercent": 0.15,
+      "stopLossPercent": 0.1,
+      "positionSizePercent": 1.5,
+      "enabled": true,
+      "pairs": ["DOGEUSDT", "PEPEUSDT", "SHIBUSDT", "AVAXUSDT"]
+    },
+    {
+      "name": "momentum-surge",
+      "type": "momentum",
+      "timeframe": "5m",
+      "takeProfitPercent": 1,
+      "stopLossPercent": 0.4,
+      "positionSizePercent": 3,
+      "enabled": true,
+      "pairs": ["BTCUSDT", "ETHUSDT", "SOLUSDT", "LINKUSDT"]
+    },
+    {
+      "name": "grid-trading",
+      "type": "grid",
+      "timeframe": "15m",
+      "gridSize": 10,
+      "takeProfitPercent": 0.5,
+      "positionSizePercent": 1,
+      "enabled": true,
+      "pairs": ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
+    },
+    {
+      "name": "mean-reversion",
+      "type": "meanReversion",
+      "timeframe": "3m",
+      "takeProfitPercent": 0.5,
+      "stopLossPercent": 0.3,
+      "positionSizePercent": 2,
+      "enabled": true,
+      "pairs": ["XRPUSDT", "ADAUSDT", "DOTUSDT", "MATICUSDT"]
+    }
+  ],
+  "tradingPairs": [
+    "BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT",
+    "XRPUSDT", "ADAUSDT", "DOGEUSDT", "AVAXUSDT",
+    "LINKUSDT", "MATICUSDT", "DOTUSDT", "PEPEUSDT",
+    "SHIBUSDT", "NEARUSDT", "ATOMUSDT", "LTCUSDT"
+  ],
+  "riskManagement": {
+    "maxOpenPositions": 15,
+    "maxDailyLossPercent": 5,
+    "maxPositionSizePercent": 3,
+    "autoStopLossPercent": 2,
+    "dailyResetTime": "00:00"
+  },
+  "execution": {
+    "slippageTolerancePercent": 0.05,
+    "orderType": "MARKET",
+    "retryOnFailure": true,
+    "maxRetries": 3
+  }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One4Health Design System Demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design-system-base.css">
+  <link rel="stylesheet" href="design-system-buttons.css">
+  <style>
+    /* Demo-specific styles */
+    body {
+      background: linear-gradient(135deg, #F8F9FA 0%, #E8F5E9 100%);
+      min-height: 100vh;
+    }
+    .demo-section {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .demo-title {
+      color: var(--color-primary);
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 24px;
+      border-bottom: 2px solid var(--color-gray-100);
+      padding-bottom: 12px;
+    }
+    .demo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .demo-label {
+      font-size: 14px;
+      color: var(--color-gray-600);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .code-block {
+      background: #1F2937;
+      color: #E5E7EB;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 14px;
+      overflow-x: auto;
+      margin-top: 24px;
+    }
+    .color-swatch {
+      width: 120px;
+      height: 80px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="padding: 64px 16px;">
+    <!-- Header -->
+    <div class="text-center" style="margin-bottom: 64px;">
+      <h1 style="font-size: 48px; color: var(--color-primary); margin-bottom: 16px;">
+        🌿 One4Health Design System
+      </h1>
+      <p style="font-size: 20px; color: var(--color-gray-600);">
+        Professional, modern, premium design tokens & components
+      </p>
+    </div>
+
+    <!-- Colors -->
+    <div class="demo-section">
+      <h2 class="demo-title">🎨 Color Palette</h2>
+      <div class="demo-row">
+        <div>
+          <div class="color-swatch" style="background: var(--color-primary);">#2E7D32</div>
+          <p style="margin-top: 8px; text-align: center; color: var(--color-gray-600);">Primary</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: var(--color-accent);">#C9A227</div>
+          <p style="margin-top: 8px; text-align: center; color: var(--color-gray-600);">Accent</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: var(--color-secondary);">#1A237E</div>
+          <p style="margin-top: 8px; text-align: center; color: var(--color-gray-600);">Secondary</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: var(--color-gray-50); color: var(--color-gray-600);">#F8F9FA</div>
+          <p style="margin-top: 8px; text-align: center; color: var(--color-gray-600);">Gray 50</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: var(--color-gray-200); color: var(--color-gray-600);">#E8EAED</div>
+          <p style="margin-top: 8px; text-align: center; color: var(--color-gray-600);">Gray 200</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Primary Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Primary Buttons</h2>
+      <div class="demo-label">Sizes:</div>
+      <div class="demo-row">
+        <button class="btn btn-primary btn-xs">Extra Small</button>
+        <button class="btn btn-primary btn-sm">Small</button>
+        <button class="btn btn-primary">Medium</button>
+        <button class="btn btn-primary btn-lg">Large</button>
+        <button class="btn btn-primary btn-xl">Extra Large</button>
+      </div>
+      <div class="demo-label">Variants:</div>
+      <div class="demo-row">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-primary btn-rounded">Rounded</button>
+        <button class="btn btn-primary btn-circle">+</button>
+      </div>
+    </div>
+
+    <!-- Secondary Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Secondary Buttons</h2>
+      <div class="demo-row">
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-secondary btn-rounded">Rounded</button>
+        <button class="btn btn-secondary btn-lg">Large</button>
+      </div>
+    </div>
+
+    <!-- Accent Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Accent Buttons</h2>
+      <div class="demo-row">
+        <button class="btn btn-accent">Accent</button>
+        <button class="btn btn-accent btn-rounded">Rounded</button>
+        <button class="btn btn-accent btn-lg">Large</button>
+      </div>
+    </div>
+
+    <!-- Outline Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Outline Buttons</h2>
+      <div class="demo-row">
+        <button class="btn btn-outline">Outline</button>
+        <button class="btn btn-outline btn-rounded">Rounded</button>
+        <button class="btn btn-outline btn-lg">Large</button>
+      </div>
+    </div>
+
+    <!-- Ghost Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Ghost Buttons</h2>
+      <div class="demo-row">
+        <button class="btn btn-ghost">Ghost</button>
+        <button class="btn btn-ghost btn-rounded">Rounded</button>
+        <button class="btn btn-ghost btn-lg">Large</button>
+      </div>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Call to Action</h2>
+      <div class="demo-row">
+        <button class="btn btn-cta">Buy Now - ₹399</button>
+      </div>
+    </div>
+
+    <!-- Button Groups -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Button Groups</h2>
+      <div class="demo-row">
+        <div class="btn-group">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-outline">Outline</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Buttons -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Social Buttons</h2>
+      <div class="demo-row">
+        <button class="btn btn-social">FB</button>
+        <button class="btn btn-social twitter">X</button>
+        <button class="btn btn-social instagram">IG</button>
+        <button class="btn btn-social">📧</button>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Loading State</h2>
+      <div class="demo-row">
+        <button class="btn btn-primary btn-loading">Loading...</button>
+        <button class="btn btn-secondary btn-loading">Processing</button>
+        <button class="btn btn-accent btn-loading">Please Wait</button>
+      </div>
+    </div>
+
+    <!-- FAB Button -->
+    <div class="demo-section">
+      <h2 class="demo-title">🔘 Floating Action Button</h2>
+      <div class="demo-row" style="padding-bottom: 80px;">
+        <button class="btn btn-fab">+</button>
+      </div>
+    </div>
+
+    <!-- Code Example -->
+    <div class="demo-section">
+      <h2 class="demo-title">📋 Usage Example</h2>
+      <div class="code-block">
+&lt;!-- Primary Button --&gt;
+&lt;button class="btn btn-primary"&gt;Click Me&lt;/button&gt;
+
+&lt;!-- Large Rounded Button --&gt;
+&lt;button class="btn btn-primary btn-lg btn-rounded"&gt;Buy Now&lt;/button&gt;
+
+&lt;!-- CTA Button --&gt;
+&lt;button class="btn btn-cta"&gt;Shop Now - ₹399&lt;/button&gt;
+
+&lt;!-- Button with Icon --&gt;
+&lt;button class="btn btn-primary btn-icon"&gt;
+  &lt;span&gt;🛒&lt;/span&gt;
+  Add to Cart
+&lt;/button&gt;
+
+&lt;!-- Button Group --&gt;
+&lt;div class="btn-group"&gt;
+  &lt;button class="btn btn-primary"&gt;Yes&lt;/button&gt;
+  &lt;button class="btn btn-secondary"&gt;No&lt;/button&gt;
+&lt;/div&gt;
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center" style="margin-top: 64px; padding: 32px; color: var(--color-gray-600);">
+      <p style="margin-bottom: 8px;">🌿 One4Health Design System</p>
+      <p style="font-size: 14px;">Forest Green + Gold + Navy | Premium & Modern</p>
+    </div>
+  </div>
+
+  <script>
+    // Toggle button dropdown (demo)
+    const dropdownBtn = document.querySelector('.btn-dropdown');
+    if (dropdownBtn) {
+      dropdownBtn.addEventListener('click', function() {
+        this.classList.toggle('open');
+      });
+    }
+
+    // Loading button demo (toggle on click)
+    document.querySelectorAll('.btn:not(.btn-loading)').forEach(btn => {
+      btn.addEventListener('click', function() {
+        if (!this.classList.contains('btn-loading') && !this.classList.contains('btn-menu')) {
+          this.classList.add('btn-loading');
+          setTimeout(() => {
+            this.classList.remove('btn-loading');
+          }, 2000);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

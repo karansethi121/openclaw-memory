@@ -1,0 +1,53 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "gateway": 1770430108493,
+    "git": 1770430108493
+  },
+  "projects": {
+    "crypto-trading": {
+      "status": "live_trading_active",
+      "mode": "LIVE",
+      "test_mode": "false",
+      "balance_detected": true,
+      "usdt_amount": "19.45",
+      "available_capital": "14.25",
+      "in_position": "5.20",
+      "position_size": "4.86",
+      "max_positions": 4,
+      "active_positions": [
+        {
+          "pair": "ETHUSDT",
+          "quantity": "0.002700",
+          "entry_price": "1925.00",
+          "position_value": "5.20",
+          "stop_loss": "1886.50",
+          "take_profit": "1982.75",
+          "order_id": "43095467068",
+          "risk": "-0.10",
+          "reward": "+0.15"
+        }
+      ],
+      "pairs": ["SOLUSDT", "ETHUSDT", "BTCUSDT", "BNBUSDT"],
+      "strategy": {
+        "entry": "RSI > 30 + momentum + volume",
+        "stop_loss": "-2%",
+        "take_profit": "+3%",
+        "risk_reward": "1:1.5"
+      },
+      "first_trade_completed": true,
+      "auto_trading_enabled": true,
+      "enabled_at": "2026-02-06 16:02 IST",
+      "last_trade": "2026-02-06 10:20:00 GMT",
+      "next_hourly_trade": "16:02 IST (today)",
+      "last_update": "2026-02-06 10:32:00 GMT",
+      "next_action": "Execute hourly trading cycles automatically"
+    },
+    "one4health": {
+      "status": "active",
+      "last_update": null
+    }
+  }
+}

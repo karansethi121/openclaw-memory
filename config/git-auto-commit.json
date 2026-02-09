@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "repositoryPath": "C:\\Users\\Karan\\.openclaw\\workspace\\one4health-website",
+  "excludePatterns": [
+    ".git",
+    "node_modules",
+    ".DS_Store",
+    ".env",
+    "*.tmp",
+    "*.log",
+    "logs",
+    ".openclaw",
+    "workspace"
+  ],
+  "commitIntervalMinutes": 60,
+  "pushAfterCommit": true,
+  "maxUncommittedFiles": 50,
+  "dailySummaryTime": "08:00",
+  "telegram": {
+    "enabled": true,
+    "chatId": "8284494839",
+    "sendDailySummary": true,
+    "sendOnError": true
+  },
+  "git": {
+    "userName": "Karan Sethi",
+    "userEmail": "sethikaran2001@gmail.com",
+    "remoteOrigin": "https://github.com/karansethi121/one4health-website.git"
+  },
+  "logging": {
+    "enabled": true,
+    "logFilePath": "C:\\Users\\Karan\\.openclaw\\logs\\git-auto-commit.log",
+    "maxLogSizeMB": 10
+  },
+  "features": {
+    "autoResolveConflicts": false,
+    "createBackupBeforePush": false,
+    "onlyCommitChangedFiles": true
+  }
+}

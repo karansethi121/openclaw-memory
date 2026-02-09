@@ -1,0 +1,22 @@
+﻿{
+    "todos":  [
+                  {
+                      "completed":  "2026-02-03T16:58:39.6265397+00:00",
+                      "status":  "done",
+                      "created":  "2026-02-03T16:58:06.6411049+00:00",
+                      "task":  "Test task",
+                      "id":  1
+                  },
+                  {
+                      "completed":  null,
+                      "status":  "pending",
+                      "created":  "2026-02-03T16:58:09.9666549+00:00",
+                      "task":  "Review pull request",
+                      "id":  2
+                  }
+              ],
+    "nextId":  3,
+    "logFilePath":  "C:\\Users\\Karan\\.openclaw\\workspace\\logs\\task-dashboard.log",
+    "gitCommitLogPath":  "C:\\Users\\Karan\\.openclaw\\logs\\git-auto-commit.log",
+    "workspace":  "C:\\Users\\Karan\\.openclaw\\workspace"
+}

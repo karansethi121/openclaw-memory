@@ -1,0 +1,100 @@
+{
+  "initialBalance": 20,
+  "currentBalance": 20.20375,
+  "trades": [
+    {
+      "id": 1,
+      "pair": "SOLUSDT",
+      "type": "SELL",
+      "entryPrice": 80,
+      "exitPrice": 82.5,
+      "amount": 5,
+      "profitLoss": 0.15625,
+      "profitLossPercent": 3.125,
+      "rsiEntry": 62,
+      "rsiExit": 75,
+      "reason": "Take Profit Hit",
+      "duration": 3600,
+      "timestamp": "2026-02-06T10:02:01.572Z"
+    },
+    {
+      "id": 2,
+      "pair": "ETHUSDT",
+      "type": "SELL",
+      "entryPrice": 1915,
+      "exitPrice": 1875,
+      "amount": 5,
+      "profitLoss": -0.1045,
+      "profitLossPercent": -2.09,
+      "rsiEntry": 45,
+      "rsiExit": 35,
+      "reason": "Stop Loss Hit",
+      "duration": 1800,
+      "timestamp": "2026-02-06T10:02:01.573Z"
+    },
+    {
+      "id": 3,
+      "pair": "BTCUSDT",
+      "type": "SELL",
+      "entryPrice": 65800,
+      "exitPrice": 67800,
+      "amount": 5,
+      "profitLoss": 0.152,
+      "profitLossPercent": 3.04,
+      "rsiEntry": 55,
+      "rsiExit": 68,
+      "reason": "Take Profit Hit",
+      "duration": 7200,
+      "timestamp": "2026-02-06T10:02:01.574Z"
+    },
+    {
+      "id": 4,
+      "pair": "ETHUSDT",
+      "type": "BUY",
+      "entryPrice": 1924.9999999999998,
+      "exitPrice": 0,
+      "amount": 5.1975,
+      "profitLoss": 0,
+      "profitLossPercent": 0,
+      "rsiEntry": 30.831940512330718,
+      "rsiExit": 0,
+      "reason": "TEST TRADE",
+      "duration": 0,
+      "timestamp": "2026-02-06T10:19:45.493Z"
+    }
+  ],
+  "dailyStats": {
+    "2026-02-06": {
+      "trades": 4,
+      "profit": 0.30825,
+      "loss": 0.1045,
+      "netProfit": 0.20375000000000004,
+      "balance": 20.20375
+    }
+  },
+  "performance": {
+    "totalTrades": 4,
+    "winningTrades": 2,
+    "losingTrades": 1,
+    "totalProfit": 0.30825,
+    "totalLoss": 0.1045,
+    "winRate": 50,
+    "profitFactor": 2.95
+  },
+  "bestDay": {
+    "date": "2026-02-06",
+    "profit": 0.20375000000000004
+  },
+  "worstDay": {
+    "date": "N/A",
+    "loss": 0
+  },
+  "streaks": {
+    "currentWin": 1,
+    "currentLoss": 0,
+    "longestWin": 1,
+    "longestLoss": 1
+  },
+  "createdAt": "2026-02-06T10:02:01.569Z",
+  "lastUpdated": "2026-02-06T10:19:45.495Z"
+}

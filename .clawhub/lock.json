@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "cron-scheduling": {
+      "version": "1.0.0",
+      "installedAt": 1770293120327
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1770293203071
+    },
+    "canvas-os": {
+      "version": "1.0.1",
+      "installedAt": 1770293209574
+    },
+    "minimax-tts": {
+      "version": "1.0.0",
+      "installedAt": 1770293215810
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1770314518483
+    }
+  }
+}

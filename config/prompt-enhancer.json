@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "enabled": true,
+  "enhancementMode": "auto_with_review",
+  "analysis": {
+    "minPromptLength": 5,
+    "maxPromptLength": 1000,
+    "qualityThreshold": 0.6,
+    "complexityLevels": ["simple", "moderate", "complex", "ambiguous"]
+  },
+  "enhancementRules": [
+    {
+      "name": "add_context_from_memory",
+      "description": "Inject relevant context from MEMORY.md when prompts reference projects or tasks",
+      "pattern": ".*(?:build|create|fix|update|improve)\\s+(\\w+).*",
+      "action": "inject_project_context"
+    },
+    {
+      "name": "clarify_constraints",
+      "description": "Ask about missing constraints (deadline, format, platform, audience)",
+      "trigger": "vague_request",
+      "action": "add_constraint_questions"
+    },
+    {
+      "name": "break_down_broad_tasks",
+      "description": "Split broad requests into specific actionable steps",
+      "pattern": ".*(build|create|make)\\s+(?:a|an)\\s+(website|app|tool|system|bot).*",
+      "action": "task_breakdown"
+    },
+    {
+      "name": "disambiguate_technical_terms",
+      "description": "Clarify which tool/language/framework is meant when ambiguous",
+      "pattern": ".*\\b(?:deploy|host|run|use)\\s+(?:it|that|this)\\b.*",
+      "action": "ask_specification"
+    },
+    {
+      "name": "define_success_criteria",
+      "description": "Ask what success looks like for unclear requests",
+      "trigger": "unclear_output",
+      "action": "ask_success_metrics"
+    }
+  ],
+  "userPreferences": {
+    "defaultTone": "professional",
+    "preferredFormats": ["markdown", "json", "plain"],
+    "timezones": ["IST", "Asia/Kolkata"],
+    "platforms": ["OpenClaw", "Telegram", "GitHub", "Netlify"],
+    "projects": {
+      "One4Health": {
+        "url": "https://one4health.netlify.app/",
+        "type": "website",
+        "focus": "brand-repositioning",
+        "techStack": ["HTML", "CSS", "JavaScript", "Netlify"]
+      },
+      "OpenClaw": {
+        "url": null,
+        "type": "system",
+        "focus": "automation",
+        "techStack": ["PowerShell", "Node.js", "Ollama"]
+      }
+    }
+  },
+  "enhancementPatterns": {
+    "vague_indicators": [
+      "build something",
+      "make",
+      "make something",
+      "create something",
+      "create",
+      "build",
+      "make it better",
+      "fix that",
+      "update stuff",
+      "help me",
+      "do this"
+    ],
+    "constraint_keywords": ["deadline", "by", "format", "style", "for", "audience", "platform"],
+    "technical_terms": [
+      "deploy", "host", "api", "database", "frontend", "backend", "server",
+      "cloud", "container", "docker", "kubernetes", "serverless"
+    ]
+  },
+  "learning": {
+    "storeHistory": true,
+    "maxHistoryEntries": 1000,
+    "patternLearning": true,
+    "userFeedback": true
+  },
+  "telegramIntegration": {
+    "showComparison": true,
+    "allowModification": true,
+    "requireApproval": true,
+    "quickActions": {
+      "accept": "✅ Use enhanced",
+      "original": "🔄 Use original",
+      "edit": "✏️ Edit prompt",
+      "skip": "⏭️ Skip enhancement"
+    }
+  }
+}

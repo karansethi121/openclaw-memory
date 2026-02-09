@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Enhancer Demo - One4Health</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #F8F9FA 0%, #E8F5E9 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #2E7D32;
+      font-size: 36px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .demo-box {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    .demo-title {
+      color: #2E7D32;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      padding: 16px;
+      border: 2px solid #E8EAED;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: monospace;
+      resize: vertical;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: #2E7D32;
+    }
+    .enhanced-area {
+      background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .enhanced-label {
+      color: #2E7D32;
+      font-weight: 700;
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+    .enhanced-text {
+      background: white;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    button {
+      background: linear-gradient(135deg, #2E7D32 0%, #4CAF50 100%);
+      color: white;
+      border: none;
+      padding: 12px 32px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(46, 125, 50, 0.4);
+    }
+    .badge {
+      display: inline-block;
+      background: #C9A227;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    .pattern-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .pattern-card {
+      background: white;
+      border: 2px solid #E8EAED;
+      border-radius: 8px;
+      padding: 16px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .pattern-card:hover {
+      border-color: #2E7D32;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .pattern-card.active {
+      border-color: #2E7D32;
+      background: #E8F5E9;
+    }
+    .pattern-name {
+      font-weight: 600;
+      color: #2D2D2D;
+      margin-bottom: 4px;
+    }
+    .pattern-desc {
+      font-size: 13px;
+      color: #5F6368;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Prompt Enhancer Demo</h1>
+
+    <div class="demo-box">
+      <div class="demo-title">Available Enhancement Patterns</div>
+      <div class="pattern-list" id="patterns">
+        <div class="pattern-card" data-pattern="code-create">
+          <div class="pattern-name">💻 Coding</div>
+          <div class="pattern-desc">Create/build/code tasks</div>
+        </div>
+        <div class="pattern-card" data-pattern="research-find">
+          <div class="pattern-name">🔍 Research</div>
+          <div class="pattern-desc">Find/search information</div>
+        </div>
+        <div class="pattern-card" data-pattern="design-component">
+          <div class="pattern-name">🎨 Design</div>
+          <div class="pattern-desc">UI/Component design</div>
+        </div>
+        <div class="pattern-card" data-pattern="business-supplier">
+          <div class="pattern-name">💼 Business</div>
+          <div class="pattern-desc">Find suppliers/partners</div>
+        </div>
+        <div class="pattern-card" data-pattern="comm-write">
+          <div class="pattern-name">💬 Writing</div>
+          <div class="pattern-desc">Emails, blogs, reports</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="demo-box">
+      <div class="demo-title">Your Prompt</div>
+      <textarea id="input-prompt" placeholder="Type your prompt here (or click a pattern above for example)..."></textarea>
+      <button onclick="enhancePrompt()">✨ ENHANCE PROMPT</button>
+
+      <div class="enhanced-area" id="enhanced-output" style="display: none;">
+        <div class="enhanced-label">✨ Enhanced Prompt</div>
+        <div class="enhanced-text" id="enhanced-text"></div>
+      </div>
+    </div>
+
+    <div class="demo-box">
+      <div class="demo-title">Quick Examples</div>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <button onclick="loadExample('code')">Coding Example</button>
+        <button onclick="loadExample('research')">Research Example</button>
+        <button onclick="loadExample('design')">Design Example</button>
+        <button onclick="loadExample('supplier')">Supplier Example</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const examples = {
+      code: "Create a form validation function",
+      research: "Find gummy suppliers in India",
+      design: "Make a button for the website",
+      supplier: "Find Ashwagandha gummy manufacturers"
+    };
+
+    const enhancements = {
+      code: "Create a JavaScript form validation function for a contact form with:\n- Fields: Name, Email, Phone, Message\n- Validation:\n  • Name: Required, 2-50 chars, letters only\n  • Email: Required, valid format check\n  • Phone: Required, 10-digit Indian format\n  • Message: Required, 10-500 chars\n- Real-time feedback with styled error messages\n- HTML5 validation + JavaScript fallback\n- Accessibility: aria-live, ARIA labels\n- Mobile-friendly error display\n- Prevent invalid submission\n- Clean, commented, reusable code",
+      research: "Research and find nutraceutical gummy manufacturers in India with:\n- Location: Himachal Pradesh (Baddi), Gujarat (Ahmedabad), or Punjab\n- Products: Ashwagandha gummies OR capability to manufacture\n- Services: Contract manufacturing or third-party manufacturing\n- Quality: WHO-GMP, ISO, or equivalent certification\n- Contact: Must include phone number and email address\n- Pricing: ₹40-80 per 30gummy bottle preferred\n- MOQ: Up to 50,000 bottles acceptable\n\nOutput format:\n- Company name\n- Location\n- Phone\n- Email\n- Website\n- Products\n- Certifications\n- Specialties",
+      design: "Create a call-to-action button for One4Health homepage hero section:\n- Text: 'Buy Now - ₹399'\n- Colors: Forest Green gradient (#2E7D32 → #4CAF50)\n- Size: 48px height, 160px width\n- Font: Poppins, bold, white\n- Border-radius: 8px\n- Hover: Lift 2px with box-shadow\n- Link: /shop\n- Accessibility: aria-label included\n- CSS styling included",
+      supplier: "Find Ashwagandha gummy supplement manufacturers in India:\n- Location: Industrial hubs preferred (Himachal, Gujarat, Punjab)\n- Product: Must manufacture Ashwagandha gummies\n- Services: Contract manufacturing for private label\n- Capacity: 30,000-60,000 gummy bottles per batch\n- Quality: GMP certified, FSSAI licensed\n- Contact: Phone number and email required\n- Pricing: Competitive rates, budget-conscious\n- Response: Must be responsive and reliable\n\nPrioritize suppliers with:\n1. Existing Ashwagandha gummy products\n2. GMP/ISO certifications\n3. Responsive contact\n4. Fair pricing"
+    };
+
+    function loadExample(type) {
+      document.getElementById('input-prompt').value = examples[type];
+      document.getElementById('enhanced-output').style.display = 'none';
+    }
+
+    function enhancePrompt() {
+      const input = document.getElementById('input-prompt').value.trim();
+      if (!input) {
+        alert('Please enter a prompt first!');
+        return;
+      }
+
+      // Simple pattern matching for demo
+      let enhanced = '';
+      const lowerInput = input.toLowerCase();
+
+      if (lowerInput.includes('create') && (lowerInput.includes('function') || lowerInput.includes('code'))) {
+        enhanced = enhancements.code;
+      } else if (lowerInput.includes('find') || lowerInput.includes('supplier') || lowerInput.includes('manufactur')) {
+        enhanced = enhancements.supplier;
+      } else if (lowerInput.includes('gummy') || lowerInput.includes('research') || lowerInput.includes('find')) {
+        enhanced = enhancements.research;
+      } else if (lowerInput.includes('button') || lowerInput.includes('design') || lowerInput.includes('make')) {
+        enhanced = enhancements.design;
+      } else {
+        // Generic enhancement
+        enhanced = `Enhanced version of your request:\n\n"${input}"\n\nEnhancement added:\n- Clarified scope and context\n- Added specific requirements\n- Included success criteria\n- Added quality standards`;
+      }
+
+      document.getElementById('enhanced-text').textContent = enhanced;
+      document.getElementById('enhanced-output').style.display = 'block';
+    }
+
+    // Pattern card click handlers
+    document.querySelectorAll('.pattern-card').forEach(card => {
+      card.addEventListener('click', function() {
+        document.querySelectorAll('.pattern-card').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

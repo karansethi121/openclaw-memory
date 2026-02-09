@@ -1,0 +1,28 @@
+Heartbeat Check - 2026-02-04 08:05 GMT
+
+Gateway Status: ❌ OFFLINE
+  - Gateway at http://127.0.0.1:18789 not responding
+  - Alert sent to user via Telegram (message #640)
+  - User intervention required to restart
+
+Cron Jobs: ⚠️ Cannot check
+  - Gateway offline, cannot query /api/cron/list
+  - Last known: Scheduled jobs configured
+
+Git Status: 30 uncommitted changes
+  - Workspace has changes from website rebuild
+  - Monitor Dashboard changes committed and pushed
+  - No auto-commit running to push pending changes
+
+Website Health: ⚠️ Offline via check
+  - one4health.netlify.app: Response failed
+  - May be CORS issue in check method
+  - Deployment may have completed despite this
+
+Notifications: ✅ Sent
+  - Alert sent to Telegram
+  - User contacted about gateway restart
+
+Action Required:
+- User must restart OpenClaw gateway
+- Verify website status manually after gateway restart

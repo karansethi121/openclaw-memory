@@ -1,0 +1,878 @@
+[2026-02-06T13:43:42.939Z] ================================================================================
+[2026-02-06T13:43:42.942Z] 🤖 BOT HEALTH MONITOR - STARTING
+[2026-02-06T13:43:42.942Z] ================================================================================
+[2026-02-06T13:43:42.942Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:43:42.950Z] ✅ Triangular Arbitrage started - PID 18540
+[2026-02-06T13:43:42.950Z] 🚀 Starting Grid Trading (attempt 1/3)
+[2026-02-06T13:43:42.957Z] ✅ Grid Trading started - PID 22568
+[2026-02-06T13:43:42.957Z] ⚙️  Monitor running - checking every 120s
+[2026-02-06T13:43:42.959Z] 📝 Log file: C:\Users\Karan\.openclaw\workspace\bot-monitor.log
+[2026-02-06T13:43:49.770Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:44:12.967Z] 🔍 Checking bot health...
+[2026-02-06T13:44:12.968Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:44:12.968Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:44:12.975Z] ✅ Triangular Arbitrage started - PID 22664
+[2026-02-06T13:44:12.975Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:44:12.976Z] ================================================================================
+[2026-02-06T13:44:20.526Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:45:42.963Z] 🔍 Checking bot health...
+[2026-02-06T13:45:42.963Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:45:42.964Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:45:42.970Z] ✅ Triangular Arbitrage started - PID 23448
+[2026-02-06T13:45:42.971Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:45:42.971Z] ================================================================================
+[2026-02-06T13:45:50.112Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:47:42.972Z] 🔍 Checking bot health...
+[2026-02-06T13:47:42.973Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:47:42.973Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:47:42.978Z] ✅ Triangular Arbitrage started - PID 15100
+[2026-02-06T13:47:42.978Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:47:42.978Z] ================================================================================
+[2026-02-06T13:47:50.095Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:49:42.983Z] 🔍 Checking bot health...
+[2026-02-06T13:49:42.983Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:49:42.984Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:49:42.990Z] ✅ Triangular Arbitrage started - PID 21816
+[2026-02-06T13:49:42.990Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:49:42.990Z] ================================================================================
+[2026-02-06T13:49:50.291Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:51:42.983Z] 🔍 Checking bot health...
+[2026-02-06T13:51:42.984Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:51:42.984Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:51:42.991Z] ✅ Triangular Arbitrage started - PID 20888
+[2026-02-06T13:51:42.991Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:51:42.992Z] ================================================================================
+[2026-02-06T13:51:50.451Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:53:42.990Z] 🔍 Checking bot health...
+[2026-02-06T13:53:42.991Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:53:42.992Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:53:43.000Z] ✅ Triangular Arbitrage started - PID 25156
+[2026-02-06T13:53:43.001Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:53:43.001Z] ================================================================================
+[2026-02-06T13:53:49.970Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:55:43.005Z] 🔍 Checking bot health...
+[2026-02-06T13:55:43.007Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:55:43.008Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:55:43.014Z] ✅ Triangular Arbitrage started - PID 12348
+[2026-02-06T13:55:43.014Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:55:43.015Z] ================================================================================
+[2026-02-06T13:55:51.934Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:57:43.008Z] 🔍 Checking bot health...
+[2026-02-06T13:57:43.009Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:57:43.009Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:57:43.014Z] ✅ Triangular Arbitrage started - PID 10540
+[2026-02-06T13:57:43.014Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:57:43.014Z] ================================================================================
+[2026-02-06T13:57:50.569Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T13:59:43.022Z] 🔍 Checking bot health...
+[2026-02-06T13:59:43.023Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T13:59:43.023Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T13:59:43.030Z] ✅ Triangular Arbitrage started - PID 17120
+[2026-02-06T13:59:43.030Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T13:59:43.031Z] ================================================================================
+[2026-02-06T13:59:50.830Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:01:43.035Z] 🔍 Checking bot health...
+[2026-02-06T14:01:43.036Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:01:43.036Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:01:43.041Z] ✅ Triangular Arbitrage started - PID 20608
+[2026-02-06T14:01:43.041Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:01:43.042Z] ================================================================================
+[2026-02-06T14:01:50.582Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:03:43.047Z] 🔍 Checking bot health...
+[2026-02-06T14:03:43.047Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:03:43.048Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:03:43.055Z] ✅ Triangular Arbitrage started - PID 22480
+[2026-02-06T14:03:43.055Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:03:43.056Z] ================================================================================
+[2026-02-06T14:03:50.442Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:05:43.061Z] 🔍 Checking bot health...
+[2026-02-06T14:05:43.062Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:05:43.062Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:05:43.070Z] ✅ Triangular Arbitrage started - PID 12880
+[2026-02-06T14:05:43.070Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:05:43.071Z] ================================================================================
+[2026-02-06T14:05:50.025Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:07:43.064Z] 🔍 Checking bot health...
+[2026-02-06T14:07:43.065Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:07:43.065Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:07:43.072Z] ✅ Triangular Arbitrage started - PID 2444
+[2026-02-06T14:07:43.073Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:07:43.073Z] ================================================================================
+[2026-02-06T14:07:50.080Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:09:43.076Z] 🔍 Checking bot health...
+[2026-02-06T14:09:43.077Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:09:43.077Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:09:43.082Z] ✅ Triangular Arbitrage started - PID 22480
+[2026-02-06T14:09:43.083Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:09:43.083Z] ================================================================================
+[2026-02-06T14:09:49.971Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:11:43.081Z] 🔍 Checking bot health...
+[2026-02-06T14:11:43.083Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:11:43.083Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:11:43.092Z] ✅ Triangular Arbitrage started - PID 11192
+[2026-02-06T14:11:43.093Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:11:43.093Z] ================================================================================
+[2026-02-06T14:11:50.303Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:13:43.089Z] 🔍 Checking bot health...
+[2026-02-06T14:13:43.090Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:13:43.090Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:13:43.094Z] ✅ Triangular Arbitrage started - PID 20568
+[2026-02-06T14:13:43.094Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:13:43.095Z] ================================================================================
+[2026-02-06T14:13:50.866Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:15:43.096Z] 🔍 Checking bot health...
+[2026-02-06T14:15:43.098Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:15:43.098Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:15:43.105Z] ✅ Triangular Arbitrage started - PID 24256
+[2026-02-06T14:15:43.106Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:15:43.106Z] ================================================================================
+[2026-02-06T14:15:50.498Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:17:43.104Z] 🔍 Checking bot health...
+[2026-02-06T14:17:43.105Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:17:43.105Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:17:43.110Z] ✅ Triangular Arbitrage started - PID 12284
+[2026-02-06T14:17:43.111Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:17:43.111Z] ================================================================================
+[2026-02-06T14:17:51.385Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:19:43.113Z] 🔍 Checking bot health...
+[2026-02-06T14:19:43.114Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:19:43.114Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:19:43.121Z] ✅ Triangular Arbitrage started - PID 19920
+[2026-02-06T14:19:43.122Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:19:43.123Z] ================================================================================
+[2026-02-06T14:19:49.978Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:21:43.119Z] 🔍 Checking bot health...
+[2026-02-06T14:21:43.120Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:21:43.120Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:21:43.127Z] ✅ Triangular Arbitrage started - PID 15004
+[2026-02-06T14:21:43.128Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:21:43.129Z] ================================================================================
+[2026-02-06T14:21:50.279Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:23:43.121Z] 🔍 Checking bot health...
+[2026-02-06T14:23:43.122Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:23:43.122Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:23:43.130Z] ✅ Triangular Arbitrage started - PID 9960
+[2026-02-06T14:23:43.131Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:23:43.132Z] ================================================================================
+[2026-02-06T14:23:50.747Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:25:43.137Z] 🔍 Checking bot health...
+[2026-02-06T14:25:43.138Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:25:43.138Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:25:43.144Z] ✅ Triangular Arbitrage started - PID 14676
+[2026-02-06T14:25:43.144Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:25:43.144Z] ================================================================================
+[2026-02-06T14:25:49.955Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:27:43.148Z] 🔍 Checking bot health...
+[2026-02-06T14:27:43.149Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:27:43.150Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:27:43.156Z] ✅ Triangular Arbitrage started - PID 17896
+[2026-02-06T14:27:43.157Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:27:43.158Z] ================================================================================
+[2026-02-06T14:27:50.133Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:29:43.148Z] 🔍 Checking bot health...
+[2026-02-06T14:29:43.149Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:29:43.150Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:29:43.159Z] ✅ Triangular Arbitrage started - PID 13344
+[2026-02-06T14:29:43.160Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:29:43.160Z] ================================================================================
+[2026-02-06T14:29:50.102Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:31:43.155Z] 🔍 Checking bot health...
+[2026-02-06T14:31:43.157Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:31:43.158Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:31:43.169Z] ✅ Triangular Arbitrage started - PID 24528
+[2026-02-06T14:31:43.170Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:31:43.171Z] ================================================================================
+[2026-02-06T14:31:50.405Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:33:43.161Z] 🔍 Checking bot health...
+[2026-02-06T14:33:43.162Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:33:43.162Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:33:43.170Z] ✅ Triangular Arbitrage started - PID 7268
+[2026-02-06T14:33:43.171Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:33:43.171Z] ================================================================================
+[2026-02-06T14:33:50.105Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:35:43.175Z] 🔍 Checking bot health...
+[2026-02-06T14:35:43.176Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:35:43.177Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:35:43.192Z] ✅ Triangular Arbitrage started - PID 24620
+[2026-02-06T14:35:43.193Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:35:43.193Z] ================================================================================
+[2026-02-06T14:35:50.666Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:37:43.178Z] 🔍 Checking bot health...
+[2026-02-06T14:37:43.179Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:37:43.180Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:37:43.194Z] ✅ Triangular Arbitrage started - PID 16176
+[2026-02-06T14:37:43.195Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:37:43.196Z] ================================================================================
+[2026-02-06T14:37:50.458Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:39:43.180Z] 🔍 Checking bot health...
+[2026-02-06T14:39:43.182Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:39:43.183Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:39:43.199Z] ✅ Triangular Arbitrage started - PID 364
+[2026-02-06T14:39:43.200Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:39:43.201Z] ================================================================================
+[2026-02-06T14:39:50.680Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:41:43.191Z] 🔍 Checking bot health...
+[2026-02-06T14:41:43.191Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:41:43.192Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:41:43.198Z] ✅ Triangular Arbitrage started - PID 13660
+[2026-02-06T14:41:43.199Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:41:43.200Z] ================================================================================
+[2026-02-06T14:41:51.588Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:43:43.199Z] 🔍 Checking bot health...
+[2026-02-06T14:43:43.200Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:43:43.200Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:43:43.205Z] ✅ Triangular Arbitrage started - PID 17316
+[2026-02-06T14:43:43.205Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:43:43.206Z] ================================================================================
+[2026-02-06T14:43:50.553Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:45:43.201Z] 🔍 Checking bot health...
+[2026-02-06T14:45:43.203Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:45:43.203Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:45:43.213Z] ✅ Triangular Arbitrage started - PID 9204
+[2026-02-06T14:45:43.213Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:45:43.214Z] ================================================================================
+[2026-02-06T14:45:50.891Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:47:43.209Z] 🔍 Checking bot health...
+[2026-02-06T14:47:43.210Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:47:43.210Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:47:43.217Z] ✅ Triangular Arbitrage started - PID 5612
+[2026-02-06T14:47:43.218Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:47:43.218Z] ================================================================================
+[2026-02-06T14:47:51.128Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:49:43.215Z] 🔍 Checking bot health...
+[2026-02-06T14:49:43.216Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:49:43.218Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:49:43.227Z] ✅ Triangular Arbitrage started - PID 22548
+[2026-02-06T14:49:43.227Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:49:43.227Z] ================================================================================
+[2026-02-06T14:49:51.142Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:51:43.226Z] 🔍 Checking bot health...
+[2026-02-06T14:51:43.227Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:51:43.227Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:51:43.233Z] ✅ Triangular Arbitrage started - PID 17964
+[2026-02-06T14:51:43.233Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:51:43.234Z] ================================================================================
+[2026-02-06T14:51:50.971Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:53:43.233Z] 🔍 Checking bot health...
+[2026-02-06T14:53:43.234Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:53:43.235Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:53:43.240Z] ✅ Triangular Arbitrage started - PID 15784
+[2026-02-06T14:53:43.241Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:53:43.242Z] ================================================================================
+[2026-02-06T14:53:51.696Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:55:43.242Z] 🔍 Checking bot health...
+[2026-02-06T14:55:43.243Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:55:43.243Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:55:43.252Z] ✅ Triangular Arbitrage started - PID 24844
+[2026-02-06T14:55:43.253Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:55:43.254Z] ================================================================================
+[2026-02-06T14:55:51.052Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:57:43.242Z] 🔍 Checking bot health...
+[2026-02-06T14:57:43.243Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:57:43.244Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:57:43.252Z] ✅ Triangular Arbitrage started - PID 25332
+[2026-02-06T14:57:43.253Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:57:43.253Z] ================================================================================
+[2026-02-06T14:57:51.510Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T14:59:43.250Z] 🔍 Checking bot health...
+[2026-02-06T14:59:43.252Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T14:59:43.254Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T14:59:43.270Z] ✅ Triangular Arbitrage started - PID 8540
+[2026-02-06T14:59:43.271Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T14:59:43.271Z] ================================================================================
+[2026-02-06T14:59:51.328Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:01:43.252Z] 🔍 Checking bot health...
+[2026-02-06T15:01:43.254Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:01:43.255Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:01:43.268Z] ✅ Triangular Arbitrage started - PID 21604
+[2026-02-06T15:01:43.269Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:01:43.270Z] ================================================================================
+[2026-02-06T15:01:51.697Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:03:43.266Z] 🔍 Checking bot health...
+[2026-02-06T15:03:43.267Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:03:43.267Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:03:43.272Z] ✅ Triangular Arbitrage started - PID 21760
+[2026-02-06T15:03:43.272Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:03:43.273Z] ================================================================================
+[2026-02-06T15:03:51.638Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:05:43.277Z] 🔍 Checking bot health...
+[2026-02-06T15:05:43.278Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:05:43.279Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:05:43.287Z] ✅ Triangular Arbitrage started - PID 5828
+[2026-02-06T15:05:43.288Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:05:43.289Z] ================================================================================
+[2026-02-06T15:05:51.040Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:07:43.287Z] 🔍 Checking bot health...
+[2026-02-06T15:07:43.288Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:07:43.289Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:07:43.299Z] ✅ Triangular Arbitrage started - PID 23240
+[2026-02-06T15:07:43.300Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:07:43.301Z] ================================================================================
+[2026-02-06T15:07:50.427Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:09:43.300Z] 🔍 Checking bot health...
+[2026-02-06T15:09:43.301Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:09:43.303Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:09:43.319Z] ✅ Triangular Arbitrage started - PID 6536
+[2026-02-06T15:09:43.320Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:09:43.322Z] ================================================================================
+[2026-02-06T15:09:51.127Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:11:43.310Z] 🔍 Checking bot health...
+[2026-02-06T15:11:43.311Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:11:43.311Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:11:43.317Z] ✅ Triangular Arbitrage started - PID 6840
+[2026-02-06T15:11:43.318Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:11:43.318Z] ================================================================================
+[2026-02-06T15:11:50.667Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:13:43.323Z] 🔍 Checking bot health...
+[2026-02-06T15:13:43.324Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:13:43.324Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:13:43.331Z] ✅ Triangular Arbitrage started - PID 10752
+[2026-02-06T15:13:43.331Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:13:43.332Z] ================================================================================
+[2026-02-06T15:13:50.242Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:15:43.325Z] 🔍 Checking bot health...
+[2026-02-06T15:15:43.326Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:15:43.326Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:15:43.331Z] ✅ Triangular Arbitrage started - PID 25504
+[2026-02-06T15:15:43.331Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:15:43.331Z] ================================================================================
+[2026-02-06T15:15:50.713Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:17:43.326Z] 🔍 Checking bot health...
+[2026-02-06T15:17:43.327Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:17:43.327Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:17:43.333Z] ✅ Triangular Arbitrage started - PID 9336
+[2026-02-06T15:17:43.333Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:17:43.334Z] ================================================================================
+[2026-02-06T15:17:50.868Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:19:43.337Z] 🔍 Checking bot health...
+[2026-02-06T15:19:43.338Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:19:43.339Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:19:43.348Z] ✅ Triangular Arbitrage started - PID 18956
+[2026-02-06T15:19:43.348Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:19:43.349Z] ================================================================================
+[2026-02-06T15:19:50.591Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:21:43.341Z] 🔍 Checking bot health...
+[2026-02-06T15:21:43.342Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:21:43.342Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:21:43.347Z] ✅ Triangular Arbitrage started - PID 14532
+[2026-02-06T15:21:43.348Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:21:43.348Z] ================================================================================
+[2026-02-06T15:21:50.683Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:23:43.353Z] 🔍 Checking bot health...
+[2026-02-06T15:23:43.354Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:23:43.354Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:23:43.360Z] ✅ Triangular Arbitrage started - PID 19320
+[2026-02-06T15:23:43.360Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:23:43.361Z] ================================================================================
+[2026-02-06T15:23:50.491Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:25:43.366Z] 🔍 Checking bot health...
+[2026-02-06T15:25:43.367Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:25:43.367Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:25:43.373Z] ✅ Triangular Arbitrage started - PID 16988
+[2026-02-06T15:25:43.373Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:25:43.374Z] ================================================================================
+[2026-02-06T15:25:50.965Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:27:43.371Z] 🔍 Checking bot health...
+[2026-02-06T15:27:43.372Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:27:43.373Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:27:43.382Z] ✅ Triangular Arbitrage started - PID 24228
+[2026-02-06T15:27:43.383Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:27:43.383Z] ================================================================================
+[2026-02-06T15:27:50.493Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:29:43.371Z] 🔍 Checking bot health...
+[2026-02-06T15:29:43.372Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:29:43.373Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:29:43.379Z] ✅ Triangular Arbitrage started - PID 19480
+[2026-02-06T15:29:43.379Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:29:43.380Z] ================================================================================
+[2026-02-06T15:29:50.525Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:31:43.374Z] 🔍 Checking bot health...
+[2026-02-06T15:31:43.376Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:31:43.376Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:31:43.385Z] ✅ Triangular Arbitrage started - PID 23928
+[2026-02-06T15:31:43.386Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:31:43.387Z] ================================================================================
+[2026-02-06T15:31:50.602Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:33:43.388Z] 🔍 Checking bot health...
+[2026-02-06T15:33:43.389Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:33:43.389Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:33:43.395Z] ✅ Triangular Arbitrage started - PID 21420
+[2026-02-06T15:33:43.396Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:33:43.397Z] ================================================================================
+[2026-02-06T15:33:51.218Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:35:43.389Z] 🔍 Checking bot health...
+[2026-02-06T15:35:43.389Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:35:43.390Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:35:43.398Z] ✅ Triangular Arbitrage started - PID 17516
+[2026-02-06T15:35:43.398Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:35:43.399Z] ================================================================================
+[2026-02-06T15:35:50.836Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:37:43.401Z] 🔍 Checking bot health...
+[2026-02-06T15:37:43.402Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:37:43.402Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:37:43.408Z] ✅ Triangular Arbitrage started - PID 24928
+[2026-02-06T15:37:43.409Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:37:43.409Z] ================================================================================
+[2026-02-06T15:37:51.160Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:39:43.405Z] 🔍 Checking bot health...
+[2026-02-06T15:39:43.406Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:39:43.406Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:39:43.412Z] ✅ Triangular Arbitrage started - PID 22564
+[2026-02-06T15:39:43.413Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:39:43.413Z] ================================================================================
+[2026-02-06T15:39:50.735Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:41:43.407Z] 🔍 Checking bot health...
+[2026-02-06T15:41:43.408Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:41:43.408Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:41:43.412Z] ✅ Triangular Arbitrage started - PID 13120
+[2026-02-06T15:41:43.413Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:41:43.413Z] ================================================================================
+[2026-02-06T15:41:50.756Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:43:43.414Z] 🔍 Checking bot health...
+[2026-02-06T15:43:43.415Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:43:43.415Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:43:43.423Z] ✅ Triangular Arbitrage started - PID 23472
+[2026-02-06T15:43:43.424Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:43:43.425Z] ================================================================================
+[2026-02-06T15:43:51.176Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:45:43.415Z] 🔍 Checking bot health...
+[2026-02-06T15:45:43.416Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:45:43.417Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:45:43.422Z] ✅ Triangular Arbitrage started - PID 22564
+[2026-02-06T15:45:43.423Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:45:43.423Z] ================================================================================
+[2026-02-06T15:45:50.970Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:47:43.424Z] 🔍 Checking bot health...
+[2026-02-06T15:47:43.425Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:47:43.426Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:47:43.436Z] ✅ Triangular Arbitrage started - PID 10568
+[2026-02-06T15:47:43.437Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:47:43.437Z] ================================================================================
+[2026-02-06T15:47:52.054Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:49:43.438Z] 🔍 Checking bot health...
+[2026-02-06T15:49:43.439Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:49:43.439Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:49:43.446Z] ✅ Triangular Arbitrage started - PID 13112
+[2026-02-06T15:49:43.446Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:49:43.447Z] ================================================================================
+[2026-02-06T15:49:51.373Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:51:43.453Z] 🔍 Checking bot health...
+[2026-02-06T15:51:43.454Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:51:43.454Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:51:43.463Z] ✅ Triangular Arbitrage started - PID 14364
+[2026-02-06T15:51:43.464Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:51:43.464Z] ================================================================================
+[2026-02-06T15:51:51.224Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:53:43.455Z] 🔍 Checking bot health...
+[2026-02-06T15:53:43.455Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:53:43.456Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:53:43.461Z] ✅ Triangular Arbitrage started - PID 14096
+[2026-02-06T15:53:43.462Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:53:43.462Z] ================================================================================
+[2026-02-06T15:53:51.113Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:55:43.463Z] 🔍 Checking bot health...
+[2026-02-06T15:55:43.464Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:55:43.464Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:55:43.468Z] ✅ Triangular Arbitrage started - PID 24896
+[2026-02-06T15:55:43.468Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:55:43.468Z] ================================================================================
+[2026-02-06T15:55:50.629Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:57:43.472Z] 🔍 Checking bot health...
+[2026-02-06T15:57:43.473Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:57:43.474Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:57:43.482Z] ✅ Triangular Arbitrage started - PID 9812
+[2026-02-06T15:57:43.483Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:57:43.484Z] ================================================================================
+[2026-02-06T15:57:51.031Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T15:59:43.480Z] 🔍 Checking bot health...
+[2026-02-06T15:59:43.480Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T15:59:43.481Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T15:59:43.486Z] ✅ Triangular Arbitrage started - PID 25348
+[2026-02-06T15:59:43.486Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T15:59:43.487Z] ================================================================================
+[2026-02-06T15:59:53.626Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:01:43.496Z] 🔍 Checking bot health...
+[2026-02-06T16:01:43.496Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:01:43.497Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:01:43.503Z] ✅ Triangular Arbitrage started - PID 16780
+[2026-02-06T16:01:43.503Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:01:43.504Z] ================================================================================
+[2026-02-06T16:01:51.870Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:03:43.514Z] 🔍 Checking bot health...
+[2026-02-06T16:03:43.514Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:03:43.515Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:03:43.520Z] ✅ Triangular Arbitrage started - PID 12024
+[2026-02-06T16:03:43.520Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:03:43.520Z] ================================================================================
+[2026-02-06T16:03:52.982Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:05:43.527Z] 🔍 Checking bot health...
+[2026-02-06T16:05:43.530Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:05:43.531Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:05:43.548Z] ✅ Triangular Arbitrage started - PID 18600
+[2026-02-06T16:05:43.549Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:05:43.550Z] ================================================================================
+[2026-02-06T16:05:52.242Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:07:43.533Z] 🔍 Checking bot health...
+[2026-02-06T16:07:43.534Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:07:43.534Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:07:43.542Z] ✅ Triangular Arbitrage started - PID 11324
+[2026-02-06T16:07:43.543Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:07:43.543Z] ================================================================================
+[2026-02-06T16:07:51.749Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:09:43.541Z] 🔍 Checking bot health...
+[2026-02-06T16:09:43.541Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:09:43.542Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:09:43.549Z] ✅ Triangular Arbitrage started - PID 24924
+[2026-02-06T16:09:43.549Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:09:43.550Z] ================================================================================
+[2026-02-06T16:09:50.891Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:11:43.557Z] 🔍 Checking bot health...
+[2026-02-06T16:11:43.558Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:11:43.560Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:11:43.573Z] ✅ Triangular Arbitrage started - PID 1044
+[2026-02-06T16:11:43.574Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:11:43.575Z] ================================================================================
+[2026-02-06T16:11:52.302Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:13:43.567Z] 🔍 Checking bot health...
+[2026-02-06T16:13:43.568Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:13:43.568Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:13:43.574Z] ✅ Triangular Arbitrage started - PID 2120
+[2026-02-06T16:13:43.575Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:13:43.575Z] ================================================================================
+[2026-02-06T16:13:51.883Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:15:43.586Z] 🔍 Checking bot health...
+[2026-02-06T16:15:43.587Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:15:43.587Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:15:43.592Z] ✅ Triangular Arbitrage started - PID 10088
+[2026-02-06T16:15:43.592Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:15:43.593Z] ================================================================================
+[2026-02-06T16:15:51.374Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:17:43.603Z] 🔍 Checking bot health...
+[2026-02-06T16:17:43.604Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:17:43.604Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:17:43.609Z] ✅ Triangular Arbitrage started - PID 4160
+[2026-02-06T16:17:43.610Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:17:43.610Z] ================================================================================
+[2026-02-06T16:17:51.068Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:19:43.613Z] 🔍 Checking bot health...
+[2026-02-06T16:19:43.614Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:19:43.614Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:19:43.619Z] ✅ Triangular Arbitrage started - PID 13552
+[2026-02-06T16:19:43.619Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:19:43.620Z] ================================================================================
+[2026-02-06T16:19:50.947Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:21:43.626Z] 🔍 Checking bot health...
+[2026-02-06T16:21:43.627Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:21:43.628Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:21:43.637Z] ✅ Triangular Arbitrage started - PID 204
+[2026-02-06T16:21:43.638Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:21:43.638Z] ================================================================================
+[2026-02-06T16:21:51.319Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:23:43.637Z] 🔍 Checking bot health...
+[2026-02-06T16:23:43.638Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:23:43.638Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:23:43.644Z] ✅ Triangular Arbitrage started - PID 16832
+[2026-02-06T16:23:43.644Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:23:43.645Z] ================================================================================
+[2026-02-06T16:23:51.312Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:25:43.646Z] 🔍 Checking bot health...
+[2026-02-06T16:25:43.647Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:25:43.647Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:25:43.651Z] ✅ Triangular Arbitrage started - PID 12812
+[2026-02-06T16:25:43.652Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:25:43.652Z] ================================================================================
+[2026-02-06T16:25:51.933Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:27:43.664Z] 🔍 Checking bot health...
+[2026-02-06T16:27:43.665Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:27:43.666Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:27:43.675Z] ✅ Triangular Arbitrage started - PID 2312
+[2026-02-06T16:27:43.676Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:27:43.677Z] ================================================================================
+[2026-02-06T16:27:51.188Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:29:43.673Z] 🔍 Checking bot health...
+[2026-02-06T16:29:43.674Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:29:43.674Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:29:43.679Z] ✅ Triangular Arbitrage started - PID 1424
+[2026-02-06T16:29:43.680Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:29:43.680Z] ================================================================================
+[2026-02-06T16:29:52.927Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:31:43.682Z] 🔍 Checking bot health...
+[2026-02-06T16:31:43.682Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:31:43.683Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:31:43.689Z] ✅ Triangular Arbitrage started - PID 20152
+[2026-02-06T16:31:43.690Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:31:43.690Z] ================================================================================
+[2026-02-06T16:31:51.175Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:33:43.689Z] 🔍 Checking bot health...
+[2026-02-06T16:33:43.689Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:33:43.690Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:33:43.695Z] ✅ Triangular Arbitrage started - PID 7688
+[2026-02-06T16:33:43.695Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:33:43.696Z] ================================================================================
+[2026-02-06T16:33:52.673Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:35:43.704Z] 🔍 Checking bot health...
+[2026-02-06T16:35:43.705Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:35:43.705Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:35:43.715Z] ✅ Triangular Arbitrage started - PID 10336
+[2026-02-06T16:35:43.716Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:35:43.716Z] ================================================================================
+[2026-02-06T16:35:51.717Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:37:43.722Z] 🔍 Checking bot health...
+[2026-02-06T16:37:43.723Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:37:43.724Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:37:43.735Z] ✅ Triangular Arbitrage started - PID 6248
+[2026-02-06T16:37:43.736Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:37:43.737Z] ================================================================================
+[2026-02-06T16:37:51.824Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:39:43.737Z] 🔍 Checking bot health...
+[2026-02-06T16:39:43.738Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:39:43.738Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:39:43.749Z] ✅ Triangular Arbitrage started - PID 20748
+[2026-02-06T16:39:43.750Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:39:43.751Z] ================================================================================
+[2026-02-06T16:39:51.697Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:41:43.751Z] 🔍 Checking bot health...
+[2026-02-06T16:41:43.753Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:41:43.754Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:41:43.767Z] ✅ Triangular Arbitrage started - PID 7960
+[2026-02-06T16:41:43.768Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:41:43.769Z] ================================================================================
+[2026-02-06T16:41:51.736Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:43:43.762Z] 🔍 Checking bot health...
+[2026-02-06T16:43:43.763Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:43:43.764Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:43:43.771Z] ✅ Triangular Arbitrage started - PID 21416
+[2026-02-06T16:43:43.771Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:43:43.772Z] ================================================================================
+[2026-02-06T16:43:52.966Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:45:43.769Z] 🔍 Checking bot health...
+[2026-02-06T16:45:43.770Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:45:43.771Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:45:43.778Z] ✅ Triangular Arbitrage started - PID 15100
+[2026-02-06T16:45:43.779Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:45:43.780Z] ================================================================================
+[2026-02-06T16:45:51.282Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:47:43.773Z] 🔍 Checking bot health...
+[2026-02-06T16:47:43.773Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:47:43.774Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:47:43.779Z] ✅ Triangular Arbitrage started - PID 14756
+[2026-02-06T16:47:43.780Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:47:43.780Z] ================================================================================
+[2026-02-06T16:47:53.180Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:49:43.787Z] 🔍 Checking bot health...
+[2026-02-06T16:49:43.788Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:49:43.789Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:49:43.796Z] ✅ Triangular Arbitrage started - PID 16032
+[2026-02-06T16:49:43.797Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:49:43.797Z] ================================================================================
+[2026-02-06T16:49:52.670Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:51:43.799Z] 🔍 Checking bot health...
+[2026-02-06T16:51:43.800Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:51:43.800Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:51:43.808Z] ✅ Triangular Arbitrage started - PID 21312
+[2026-02-06T16:51:43.809Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:51:43.809Z] ================================================================================
+[2026-02-06T16:51:51.800Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:53:43.808Z] 🔍 Checking bot health...
+[2026-02-06T16:53:43.809Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:53:43.810Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:53:43.820Z] ✅ Triangular Arbitrage started - PID 784
+[2026-02-06T16:53:43.820Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:53:43.821Z] ================================================================================
+[2026-02-06T16:53:51.290Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:55:43.810Z] 🔍 Checking bot health...
+[2026-02-06T16:55:43.811Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:55:43.811Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:55:43.815Z] ✅ Triangular Arbitrage started - PID 18048
+[2026-02-06T16:55:43.816Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:55:43.816Z] ================================================================================
+[2026-02-06T16:55:51.758Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:57:43.821Z] 🔍 Checking bot health...
+[2026-02-06T16:57:43.822Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:57:43.823Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:57:43.835Z] ✅ Triangular Arbitrage started - PID 2192
+[2026-02-06T16:57:43.836Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:57:43.837Z] ================================================================================
+[2026-02-06T16:57:51.529Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T16:59:43.831Z] 🔍 Checking bot health...
+[2026-02-06T16:59:43.832Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T16:59:43.833Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T16:59:43.842Z] ✅ Triangular Arbitrage started - PID 9076
+[2026-02-06T16:59:43.843Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T16:59:43.844Z] ================================================================================
+[2026-02-06T16:59:54.046Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:01:43.848Z] 🔍 Checking bot health...
+[2026-02-06T17:01:43.849Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:01:43.850Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:01:43.855Z] ✅ Triangular Arbitrage started - PID 22648
+[2026-02-06T17:01:43.855Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:01:43.855Z] ================================================================================
+[2026-02-06T17:01:52.391Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:03:43.860Z] 🔍 Checking bot health...
+[2026-02-06T17:03:43.861Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:03:43.862Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:03:43.871Z] ✅ Triangular Arbitrage started - PID 24412
+[2026-02-06T17:03:43.872Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:03:43.873Z] ================================================================================
+[2026-02-06T17:03:52.731Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:05:43.874Z] 🔍 Checking bot health...
+[2026-02-06T17:05:43.874Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:05:43.875Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:05:43.882Z] ✅ Triangular Arbitrage started - PID 6412
+[2026-02-06T17:05:43.883Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:05:43.883Z] ================================================================================
+[2026-02-06T17:05:52.039Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:07:43.877Z] 🔍 Checking bot health...
+[2026-02-06T17:07:43.877Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:07:43.878Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:07:43.883Z] ✅ Triangular Arbitrage started - PID 10336
+[2026-02-06T17:07:43.883Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:07:43.884Z] ================================================================================
+[2026-02-06T17:07:51.703Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:09:43.877Z] 🔍 Checking bot health...
+[2026-02-06T17:09:43.880Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:09:43.881Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:09:43.888Z] ✅ Triangular Arbitrage started - PID 24804
+[2026-02-06T17:09:43.888Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:09:43.888Z] ================================================================================
+[2026-02-06T17:09:51.569Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:11:43.894Z] 🔍 Checking bot health...
+[2026-02-06T17:11:43.896Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:11:43.896Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:11:43.907Z] ✅ Triangular Arbitrage started - PID 21420
+[2026-02-06T17:11:43.908Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:11:43.909Z] ================================================================================
+[2026-02-06T17:11:52.252Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:13:43.908Z] 🔍 Checking bot health...
+[2026-02-06T17:13:43.909Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:13:43.910Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:13:43.916Z] ✅ Triangular Arbitrage started - PID 20952
+[2026-02-06T17:13:43.916Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:13:43.917Z] ================================================================================
+[2026-02-06T17:13:52.229Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:15:43.922Z] 🔍 Checking bot health...
+[2026-02-06T17:15:43.922Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:15:43.922Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:15:43.926Z] ✅ Triangular Arbitrage started - PID 10880
+[2026-02-06T17:15:43.927Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:15:43.927Z] ================================================================================
+[2026-02-06T17:15:52.173Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:17:43.925Z] 🔍 Checking bot health...
+[2026-02-06T17:17:43.926Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:17:43.927Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:17:43.933Z] ✅ Triangular Arbitrage started - PID 13164
+[2026-02-06T17:17:43.934Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:17:43.935Z] ================================================================================
+[2026-02-06T17:17:51.547Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:19:43.940Z] 🔍 Checking bot health...
+[2026-02-06T17:19:43.941Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:19:43.941Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:19:43.946Z] ✅ Triangular Arbitrage started - PID 23140
+[2026-02-06T17:19:43.947Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:19:43.947Z] ================================================================================
+[2026-02-06T17:19:51.527Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:21:43.953Z] 🔍 Checking bot health...
+[2026-02-06T17:21:43.954Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:21:43.955Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:21:43.963Z] ✅ Triangular Arbitrage started - PID 14368
+[2026-02-06T17:21:43.964Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:21:43.964Z] ================================================================================
+[2026-02-06T17:21:51.462Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:23:43.956Z] 🔍 Checking bot health...
+[2026-02-06T17:23:43.957Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:23:43.957Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:23:43.965Z] ✅ Triangular Arbitrage started - PID 22816
+[2026-02-06T17:23:43.966Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:23:43.966Z] ================================================================================
+[2026-02-06T17:23:52.877Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:25:43.964Z] 🔍 Checking bot health...
+[2026-02-06T17:25:43.965Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:25:43.966Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:25:43.974Z] ✅ Triangular Arbitrage started - PID 8016
+[2026-02-06T17:25:43.974Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:25:43.975Z] ================================================================================
+[2026-02-06T17:25:51.920Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:27:43.979Z] 🔍 Checking bot health...
+[2026-02-06T17:27:43.980Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:27:43.980Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:27:43.987Z] ✅ Triangular Arbitrage started - PID 23740
+[2026-02-06T17:27:43.987Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:27:43.988Z] ================================================================================
+[2026-02-06T17:27:51.857Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:29:43.994Z] 🔍 Checking bot health...
+[2026-02-06T17:29:43.995Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:29:43.995Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:29:44.000Z] ✅ Triangular Arbitrage started - PID 24952
+[2026-02-06T17:29:44.001Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:29:44.001Z] ================================================================================
+[2026-02-06T17:29:51.603Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:31:43.996Z] 🔍 Checking bot health...
+[2026-02-06T17:31:43.997Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:31:43.997Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:31:44.002Z] ✅ Triangular Arbitrage started - PID 21356
+[2026-02-06T17:31:44.002Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:31:44.003Z] ================================================================================
+[2026-02-06T17:31:51.540Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:33:44.006Z] 🔍 Checking bot health...
+[2026-02-06T17:33:44.008Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:33:44.009Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:33:44.023Z] ✅ Triangular Arbitrage started - PID 16032
+[2026-02-06T17:33:44.024Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:33:44.025Z] ================================================================================
+[2026-02-06T17:33:54.157Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:35:44.008Z] 🔍 Checking bot health...
+[2026-02-06T17:35:44.009Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:35:44.009Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:35:44.015Z] ✅ Triangular Arbitrage started - PID 9404
+[2026-02-06T17:35:44.016Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:35:44.016Z] ================================================================================
+[2026-02-06T17:35:51.410Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:37:44.020Z] 🔍 Checking bot health...
+[2026-02-06T17:37:44.022Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:37:44.024Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:37:44.030Z] ✅ Triangular Arbitrage started - PID 10096
+[2026-02-06T17:37:44.030Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:37:44.030Z] ================================================================================
+[2026-02-06T17:37:52.739Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:39:44.027Z] 🔍 Checking bot health...
+[2026-02-06T17:39:44.028Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:39:44.028Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:39:44.034Z] ✅ Triangular Arbitrage started - PID 11228
+[2026-02-06T17:39:44.034Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:39:44.035Z] ================================================================================
+[2026-02-06T17:39:51.660Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:41:44.030Z] 🔍 Checking bot health...
+[2026-02-06T17:41:44.031Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:41:44.032Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:41:44.042Z] ✅ Triangular Arbitrage started - PID 23688
+[2026-02-06T17:41:44.043Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:41:44.043Z] ================================================================================
+[2026-02-06T17:41:51.399Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:43:44.037Z] 🔍 Checking bot health...
+[2026-02-06T17:43:44.038Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:43:44.038Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:43:44.045Z] ✅ Triangular Arbitrage started - PID 8724
+[2026-02-06T17:43:44.045Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:43:44.046Z] ================================================================================
+[2026-02-06T17:43:52.644Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:45:44.048Z] 🔍 Checking bot health...
+[2026-02-06T17:45:44.049Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:45:44.049Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:45:44.058Z] ✅ Triangular Arbitrage started - PID 12108
+[2026-02-06T17:45:44.058Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:45:44.058Z] ================================================================================
+[2026-02-06T17:45:52.743Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:47:44.050Z] 🔍 Checking bot health...
+[2026-02-06T17:47:44.051Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:47:44.052Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:47:44.064Z] ✅ Triangular Arbitrage started - PID 23632
+[2026-02-06T17:47:44.065Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:47:44.065Z] ================================================================================
+[2026-02-06T17:47:51.548Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)
+[2026-02-06T17:49:44.066Z] 🔍 Checking bot health...
+[2026-02-06T17:49:44.069Z] ⚠️ Triangular Arbitrage - Not running, starting...
+[2026-02-06T17:49:44.070Z] 🚀 Starting Triangular Arbitrage (attempt 1/3)
+[2026-02-06T17:49:44.081Z] ✅ Triangular Arbitrage started - PID 6668
+[2026-02-06T17:49:44.081Z] ✅ Grid Trading - OK (PID 22568)
+[2026-02-06T17:49:44.081Z] ================================================================================
+[2026-02-06T17:49:53.333Z] 🔴 Triangular Arbitrage stopped (code: 0, signal: null)

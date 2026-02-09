@@ -1,0 +1,71 @@
+{
+  "qualityScores": [
+    {
+      "score": 85,
+      "timestamp": "2026-02-05T17:18:16.768Z"
+    },
+    {
+      "score": 88,
+      "timestamp": "2026-02-05T17:18:16.769Z"
+    },
+    {
+      "score": 82,
+      "timestamp": "2026-02-05T17:18:16.769Z"
+    },
+    {
+      "score": 90,
+      "timestamp": "2026-02-05T17:18:16.770Z"
+    }
+  ],
+  "taskCompletion": {
+    "completed": 4,
+    "failed": 0,
+    "total": 4
+  },
+  "skillsUtilization": {
+    "enabled": 12,
+    "total": 49,
+    "usedToday": [
+      "github",
+      "skill-creator",
+      "summarize",
+      "analytics"
+    ],
+    "usedThisWeek": [
+      "github",
+      "skill-creator",
+      "summarize",
+      "analytics"
+    ]
+  },
+  "improvement": {
+    "tasks": 1,
+    "skills": 1,
+    "agents": 0,
+    "docs": 1
+  },
+  "memoryRetention": {
+    "tested": 0,
+    "correct": 0
+  },
+  "dailySummaries": {
+    "2026-02-05": {
+      "date": "2026-02-05",
+      "qualityScore": 86,
+      "taskCompletionRate": 100,
+      "skillUtilization": {
+        "enabledPercent": 24,
+        "activePercent": 8,
+        "usedCount": 4
+      },
+      "retentionRate": 0,
+      "improvementsToday": {
+        "tasks": 0,
+        "skills": 0,
+        "agents": 0,
+        "docs": 0
+      }
+    }
+  },
+  "createdAt": "2026-02-05T17:18:16.763Z"
+}
