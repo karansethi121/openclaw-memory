@@ -4,13 +4,22 @@
 
 ## ✅ Completed
 - Gateway Auto-Restart Monitor (already deployed)
-- **Smart Git Auto-Committer** (2026-02-03 10:59, Verified 2026-02-07 07:31)
+- **Smart Git Auto-Committer** (2026-02-03 10:59, Verified 2026-02-07 07:31, Re-verified 2026-02-10 07:32)
   - Script: `C:\Users\Karan\.openclaw\workspace\scripts\git-auto-commit.ps1`
   - Config: `C:\Users\Karan\.openclaw\workspace\config\git-auto-commit.json`
   - Launcher: `C:\Users\Karan\.openclaw\scripts\start-git-auto-commit.bat`
   - Skills: Auto-commit, push to GitHub, Telegram daily summaries
   - Test: ✅ Passed
-  - Verification: ✅ Fully operational (continuous mode active, hourly checks running)
+  - Latest Tests (2026-02-10):
+    - ✅ Configuration test passed
+    - ✅ One-time check passed (checked repo, no changes found)
+    - ✅ Daily summary generation passed
+    - ✅ Telegram integration fixed and working (was using incorrect API endpoint)
+    - ⚠️ Cron jobs: Gateway timeout during list verification
+  - Fixes Applied:
+    - Fixed Telegram integration to use OpenClaw CLI instead of incorrect gateway API endpoint
+    - Corrected OpenClaw CLI path in Send-TelegramMessage function
+  - Verification: ✅ Fully operational
   - Docs: `GIT-AUTO-COMMIT-VERIFICATION.md` - Complete verification report
 - **Local Task Assistant** (2026-02-03 11:26)
   - Location: `C:\Users\Karan\.openclaw\workspace\local-task-assistant/`
