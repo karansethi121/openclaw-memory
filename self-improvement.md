@@ -8,7 +8,21 @@
 
 ## ✅ Recent Completed Improvements (2026-02-10)
 
-### 1. Skills Discovery - Business & Productivity Skills ✅
+### 1. Agent Capability Testing - Task Skill Setup Discovery ⚠️
+- **Task:** Test newly installed task skill functionality
+- **Date:** 2026-02-10 01:30 PM IST
+- **Test Results:**
+  - task skill REQUIRES external `tasker` CLI binary
+  - Plugin tool `tasker_cmd` needs to be configured
+  - NOT ready-to-use like minimax-tts
+- **Discovery:**
+  - Some skills are complete integrations (minimax-tts ✅)
+  - Some are documentation templates (seo-content-writer, automation-workflowsv)
+  - Some require plugin setup (task)
+- **Status:** DOCUMENTED (setup deferred - needs external binary)
+- **Documentation:** memory/2026-02-10.md
+
+### 2. Skills Discovery - Business & Productivity Skills ✅
 - **Task:** Discover and enable business/productivity skills
 - **Date:** 2026-02-10 11:30 AM IST
 - **Skills Installed:**
