@@ -20,6 +20,14 @@
     "video-frames": {
       "version": "1.0.0",
       "installedAt": 1770314518483
+    },
+    "image": {
+      "version": "1.0.1",
+      "installedAt": 1770689120043
+    },
+    "email": {
+      "version": "1.1.0",
+      "installedAt": 1770689147065
     }
   }
 }
