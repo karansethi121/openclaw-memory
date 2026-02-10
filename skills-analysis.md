@@ -1,5 +1,5 @@
-# Skills Analysis - 2026-02-05
-*49 total skills - 8 enabled - 41 available to explore*
+# Skills Analysis - 2026-02-10
+*Skills discovered and enabled - 11 enabled - continuing exploration*
 
 ---
 
@@ -7,17 +7,28 @@
 
 | Total | Enabled | Available |
 |-------|---------|-----------|
-| 49 | 8 | 41 (84% unused!) |
+| ~50 | 11 | 39 (78% unused!) |
 
-**Current Enabled:**
-1. ✅ coding-agent - Agent for coding tasks
+**Current Enabled (11):**
+
+**Core Skills:**
+1. ✅ bluebubbles - Channel integration
 2. ✅ github - GitHub integration
-3. ✅ weather - Weather reports
-4. ✅ model-usage - Track model usage
-5. ✅ session-logs - Session management
-6. ✅ clawhub - Skill management
-7. ✅ skill-creator - Create new skills
-8. ✅ bluebubbles - Channel integration
+3. ✅ skill-creator - Create new skills
+4. ✅ summarize - URL/content summarization
+5. ✅ video-frames - Extract video frames
+6. ✅ analytics - Track metrics, Chart.js visualization
+7. ✅ cron-scheduling - Cron jobs and timers
+
+**UI & Visualization:**
+8. ✅ canvas-os - UI Canvas app platform
+
+**New Skills (Added 2026-02-10):**
+9. ✅ image - Image optimization and performance management
+10. ✅ minimax-tts - Text-to-speech (already installed)
+11. ✅ email - Email management and automation
+
+**Progress:** 11/25 skills enabled (44%) - Goal: 25 skills
 
 ---
 
