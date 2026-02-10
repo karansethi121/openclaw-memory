@@ -396,6 +396,124 @@ window.app = {
 
 ---
 
+## 🖼️ Image Skill Details
+
+**Skill Name:** image
+**Status:** ✅ Installed and ready
+**Location:** `skills/image/`
+**Version:** v1.0.1
+
+**Purpose:** Image optimization and performance management for web development
+
+**Key Features:**
+1. **Performance Budget Ceilings**
+   - Hero images: 150KB maximum (LCP target), 85% JPEG quality
+   - Above-fold thumbnails: 25KB limit, WebP 80% quality
+   - Below-fold content: 400KB budget, lazy load 200px threshold
+   - Mobile optimization: 200KB absolute maximum
+
+2. **Format Selection Thresholds**
+   - Photos >800px: AVIF 60% → WebP 75% → JPEG 85%
+   - Transparency: WebP with alpha 80% → PNG fallback
+   - Animation: WebP under 3MB → GIF 16-color
+   - Vector: SVG for scalable, PNG-8 for <256 color
+
+3. **Quality Target Patterns**
+   - JPEG portraits: 88-92% (skin tone preservation)
+   - JPEG landscapes: 80-85% (texture compression)
+   - WebP: 10-15% lower than equivalent JPEG
+   - E-commerce products: 95% minimum
+
+4. **Responsive Implementation**
+   - Density: 1x, 1.5x, 2x maximum (3x is wasteful)
+   - Breakpoints: 480w, 768w, 1200w, 1920w
+   - Art direction: picture element when ratio changes >20%
+   - Preload: Largest variant only, others lazy
+
+5. **Accessibility Standards**
+   - Text overlay contrast: 4.5:1 ratio
+   - Alt text: 125 characters maximum
+   - Decorative: aria-hidden="true"
+
+**Use Cases for One4Health:**
+- Optimize gummy product images
+- Faster website load times
+- Mobile-friendly responsive images
+- High-quality visual presentation
+
+**Next Actions:**
+- [ ] Optimize One4Health website images
+- [ ] Configure format conversion pipeline
+- [ ] Test responsive images on product pages
+
+---
+
+## 📧 Email Skill Details
+
+**Skill Name:** email
+**Status:** ✅ Installed and ready
+**Location:** `skills/email/`
+**Version:** v1.1.0
+
+**Purpose:** Email management and automation
+
+**Key Features:**
+- Send emails
+- Read inbox
+- Search messages
+- Organize with labels/folders
+- Email templates
+- Bulk operations
+
+**Supported Providers:**
+- Gmail
+- Outlook
+- IMAP/SMTP
+
+**Usage Examples:**
+- "Send email to user@example.com"
+- "Show unread emails"
+- "Search emails from last week"
+
+**Use Cases for One4Health:**
+- Supplier communication (Apkavit, United Labs, Bliss LS)
+- Order confirmations and follow-ups
+- Automated customer responses
+- Organize supplier correspondence
+
+**Requirements:**
+- SMTP configuration for sending
+- IMAP/POP3 for reading
+- Authentication credentials
+
+**Next Actions:**
+- [ ] Configure SMTP settings for One4Health email
+- [ ] Create supplier email templates
+- [ ] Test email sending functionality
+
+---
+
+## 🔊 Minimax-TTS Skill Details
+
+**Skill Name:** minimax-tts
+**Status:** ✅ Already installed, ready to use
+**Version:** v1.0.0
+
+**Purpose:** Text-to-speech for voice updates
+
+**Use Cases:**
+- Voice updates via Telegram
+- Audio summaries for research
+- Storytelling for long content
+- Accessibility features
+
+**Next Actions:**
+- [ ] Test minimax-tts with sample text
+- [ ] Integrate with Telegram for voice messages
+- [ ] Create TTS workflow for long summaries
+
+---
+
 ## 🔍 Recent Errors and Fixes
 
 | Date | Error | Fix | Permanent? |
