@@ -28,6 +28,18 @@
     "email": {
       "version": "1.1.0",
       "installedAt": 1770689147065
+    },
+    "task": {
+      "version": "0.1.0",
+      "installedAt": 1770703679206
+    },
+    "automation-workflowsv": {
+      "version": "1.0.0",
+      "installedAt": 1770703698015
+    },
+    "seo-content-writer": {
+      "version": "0.1.0",
+      "installedAt": 1770703715049
     }
   }
 }
