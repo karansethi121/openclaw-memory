@@ -39,16 +39,14 @@ function Send-TelegramMessage {
 
     if ($config.telegram.enabled) {
         try {
-            # Use gateway to send message
-            $apiUrl = "http://127.0.0.1:18789/api/message/send"
-            $body = @{
-                channel = "telegram"
-                target = $config.telegram.chatId
-                message = $Message
-            } | ConvertTo-Json
-
-            Invoke-RestMethod -Uri $apiUrl -Method Post -Body $body -ContentType "application/json" -ErrorAction Stop
-            Write-Log "Telegram message sent"
+            # Use OpenClaw CLI to send Telegram message
+            $openclawPath = "$env:APPDATA\npm\openclaw.cmd"
+            if (Test-Path $openclawPath) {
+                $result = & $openclawPath message send --channel=telegram --target=$($config.telegram.chatId) --message="$Message" 2>&1
+                Write-Log "Telegram message sent"
+            } else {
+                Write-Log "OpenClaw CLI not found at $openclawPath"
+            }
         } catch {
             Write-Log "Failed to send Telegram: $($_.Exception.Message)"
         }
