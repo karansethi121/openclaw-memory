@@ -136,32 +136,6 @@ document.querySelectorAll('[data-aos]').forEach(el => {
 });
 
 // ========================================
-// Counter Animation
-// ========================================
-const counters = document.querySelectorAll('.counter');
-
-const animateCounters = () => {
-  counters.forEach(counter => {
-    const target = parseInt(counter.getAttribute('data-target'));
-    const duration = 2000;
-    const step = target / (duration / 16);
-    let current = 0;
-
-    const updateCounter = () => {
-      current += step;
-      if (current < target) {
-        counter.textContent = Math.floor(current);
-        requestAnimationFrame(updateCounter);
-      } else {
-        counter.textContent = target;
-      }
-    };
-
-    updateCounter();
-  });
-};
-
-// ========================================
 // Lazy Load Images
 // ========================================
 const lazyImages = document.querySelectorAll('img[data-src]');
@@ -189,7 +163,7 @@ progressBar.style.cssText = `
   top: 0;
   left: 0;
   height: 3px;
-  background: linear-gradient(to right, #10B981, #3B82F6);
+  background: #10B981;
   z-index: 9999;
   transition: width 0.1s ease;
 `;
@@ -215,7 +189,7 @@ backToTopBtn.style.cssText = `
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #10B981, #3B82F6);
+  background: #10B981;
   color: white;
   font-size: 24px;
   border: none;
@@ -290,23 +264,6 @@ yearElements.forEach(el => {
 });
 
 // ========================================
-// Form Input Animations
-// ========================================
-const formInputs = document.querySelectorAll('input, textarea');
-
-formInputs.forEach(input => {
-  input.addEventListener('focus', () => {
-    input.parentElement.classList.add('focused');
-  });
-  
-  input.addEventListener('blur', () => {
-    if (input.value === '') {
-      input.parentElement.classList.remove('focused');
-    }
-  });
-});
-
-// ========================================
 // Hero Animation Delay
 // ========================================
 window.addEventListener('load', () => {
@@ -346,8 +303,7 @@ window.addEventListener('resize', handleResize);
 // ========================================
 // Console Welcome Message
 // ========================================
-console.log('%c Welcome to One4Health! ', 'background: linear-gradient(135deg, #10B981, #3B82F6); color: white; font-size: 20px; padding: 10px; border-radius: 5px;');
-
+console.log('%c Welcome to One4Health! ', 'background: #10B981; color: white; font-size: 20px; padding: 10px; border-radius: 5px;');
 console.log('%c Wellness That Tastes Amazing 🍬 ', 'color: #10B981; font-size: 14px; font-weight: bold;');
 
 // ========================================
@@ -361,20 +317,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ========================================
-// Product Quick View (placeholder)
-// ========================================
-const quickViewButtons = document.querySelectorAll('.quick-view');
-
-if (quickViewButtons.length > 0) {
-  quickViewButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Quick view modal would be implemented here
-      alert('Quick view feature coming soon!');
-    });
-  });
-}
-
-// ========================================
 // Add to Cart Animation
 // ========================================
 document.querySelectorAll('.product-btn').forEach(button => {
@@ -382,7 +324,7 @@ document.querySelectorAll('.product-btn').forEach(button => {
     if (!this.classList.contains('added')) {
       this.innerHTML = '✓ Added';
       this.classList.add('added');
-      this.style.background = '#10B981';
+      this.style.background = '#059669';
       
       setTimeout(() => {
         this.innerHTML = 'Add to Cart';
@@ -392,29 +334,6 @@ document.querySelectorAll('.product-btn').forEach(button => {
     }
   });
 });
-
-// ========================================
-// FAQ Search Functionality (optional enhancement)
-// ========================================
-const faqSearch = document.getElementById('faq-search');
-
-if (faqSearch) {
-  faqSearch.addEventListener('input', (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const faqItems = document.querySelectorAll('.faq-item');
-    
-    faqItems.forEach(item => {
-      const question = item.querySelector('.faq-question').textContent.toLowerCase();
-      const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
-      
-      if (question.includes(searchTerm) || answer.includes(searchTerm)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = searchTerm === '' ? 'block' : 'none';
-      }
-    });
-  });
-}
 
 // ========================================
 // Website Performance Monitoring
