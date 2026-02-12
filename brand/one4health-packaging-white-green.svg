@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420mm" height="280mm">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap');
+      .poppins { font-family: 'Poppins', sans-serif; }
+    </style>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="lightGreenFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A7F3D0"/>
+      <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="gummyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#047857"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main Background - White -->
+  <rect x="0" y="0" width="420" height="280" fill="white"/>
+
+  <!-- Top Decorative Green Band -->
+  <path d="M0 0 L420 0 L420 25 L210 50 L0 25 Z" fill="#10B981"/>
+  <path d="M0 25 L210 50 L210 55 L0 30 Z" fill="#059669"/>
+  <path d="M210 50 L420 25 L420 30 L210 55 Z" fill="#047857"/>
+
+  <!-- Logo at Top -->
+  <text x="210" y="22" text-anchor="middle" fill="white" class="poppins" font-weight="900" font-size="18" letter-spacing="4">ONE4HEALTH</text>
+
+  <!-- Main Content Area -->
+  <g transform="translate(0, 60)">
+    <!-- Product Name - Large and Bold -->
+    <text x="210" y="35" text-anchor="middle" fill="#000000" class="poppins" font-weight="900" font-size="48" letter-spacing="2">ASHWAGANDHA</text>
+    <text x="210" y="65" text-anchor="middle" fill="#10B981" class="poppins" font-weight="700" font-size="28" letter-spacing="6">GUMMIES</text>
+
+    <!-- Subtitle Line -->
+    <text x="210" y="85" text-anchor="middle" fill="#64748B" class="poppins" font-weight="500" font-size="14" letter-spacing="3">PREMIUM WELLNESS VITAMINS</text>
+
+    <!-- KSM-66 Badge -->
+    <rect x="160" y="95" width="100" height="24" rx="12" fill="#10B981"/>
+    <text x="210" y="111" text-anchor="middle" fill="white" class="poppins" font-weight="700" font-size="11" letter-spacing="1">KSM-66™ EXTRACT</text>
+
+    <!-- Benefits Pills -->
+    <g transform="translate(60, 125)">
+      <rect x="0" y="0" width="90" height="60" rx="8" fill="#F0FDFA" stroke="#A7F3D0" stroke-width="2"/>
+      <circle cx="45" cy="20" r="18" fill="#10B981" opacity="0.15"/>
+      <text x="45" y="25" text-anchor="middle" fill="#10B981" class="poppins" font-weight="700" font-size="20">💚</text>
+      <text x="45" y="42" text-anchor="middle" fill="#000000" class="poppins" font-weight="600" font-size="10">Stress Relief</text>
+      <text x="45" y="54" text-anchor="middle" fill="#64748B" class="poppins" font-weight="400" font-size="8">Calming Support</text>
+    </g>
+
+    <g transform="translate(165, 125)">
+      <rect x="0" y="0" width="90" height="60" rx="8" fill="#F0FDFA" stroke="#A7F3D0" stroke-width="2"/>
+      <circle cx="45" cy="20" r="18" fill="#10B981" opacity="0.15"/>
+      <text x="45" y="25" text-anchor="middle" fill="#10B981" class="poppins" font-weight="700" font-size="20">⚡</text>
+      <text x="45" y="42" text-anchor="middle" fill="#000000" class="poppins" font-weight="600" font-size="10">Natural Energy</text>
+      <text x="45" y="54" text-anchor="middle" fill="#64748B" class="poppins" font-weight="400" font-size="8">Vitality Boost</text>
+    </g>
+
+    <g transform="translate(270, 125)">
+      <rect x="0" y="0" width="90" height="60" rx="8" fill="#F0FDFA" stroke="#A7F3D0" stroke-width="2"/>
+      <circle cx="45" cy="20" r="18" fill="#10B981" opacity="0.15"/>
+      <text x="45" y="25" text-anchor="middle" fill="#10B981" class="poppins" font-weight="700" font-size="20">💪</text>
+      <text x="45" y="42" text-anchor="middle" fill="#000000" class="poppins" font-weight="600" font-size="10">Immune Support</text>
+      <text x="45" y="54" text-anchor="middle" fill="#64748B" class="poppins" font-weight="400" font-size="8">Daily Defense</text>
+    </g>
+  </g>
+
+  <!-- Gummy Illustration Area -->
+  <rect x="0" y="195" width="420" height="60" fill="url(#lightGreenFade)" rx="10"/>
+
+  <!-- Gummy Shapes -->
+  <g transform="translate(150, 220)">
+    <!-- Gummy 1 -->
+    <ellipse cx="0" cy="0" rx="22" ry="28" fill="url(#gummyGradient)"/>
+    <ellipse cx="-5" cy="-10" rx="8" ry="8" fill="rgba(255,255,255,0.3)"/>
+    <ellipse cx="35" cy="5" rx="22" ry="28" fill="url(#gummyGradient)"/>
+    <ellipse cx="30" cy="-5" rx="8" ry="8" fill="rgba(255,255,255,0.3)"/>
+    <ellipse cx="70" cy="0" rx="22" ry="28" fill="url(#gummyGradient)"/>
+    <ellipse cx="65" cy="-10" rx="8" ry="8" fill="rgba(255,255,255,0.3)"/>
+  </g>
+
+  <!-- Bottom Info Bar -->
+  <rect x="0" y="260" width="420" height="20" fill="#000000"/>
+
+  <!-- Bottom Text -->
+  <text x="35" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">30 Gummies</text>
+  <text x="105" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">│</text>
+  <text x="175" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">30 Day Supply</text>
+  <text x="245" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">│</text>
+  <text x="315" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">1 Gummy/Day</text>
+  <text x="385" y="274" text-anchor="middle" fill="white" class="poppins" font-weight="600" font-size="10">│</text>
+
+  <!-- Side Decorative Elements -->
+  <rect x="0" y="260" width="3" height="20" fill="#10B981"/>
+  <rect x="417" y="260" width="3" height="20" fill="#10B981"/>
+
+</svg>
