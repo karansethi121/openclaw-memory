@@ -86,22 +86,24 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 10px 20px;
 }
 
 .logo {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 800;
   color: var(--primary);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .logo img {
-  height: 40px;
+  height: 20px;
   width: auto;
+  max-width: 80px;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -820,18 +822,20 @@ button {
 }
 
 .footer-logo {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 800;
   margin-bottom: 15px;
   color: var(--primary);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .footer-logo img {
-  height: 40px;
+  height: 20px;
   width: auto;
+  max-width: 80px;
+  object-fit: contain;
 }
 
 .footer-description {
