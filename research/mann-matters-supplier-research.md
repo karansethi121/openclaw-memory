@@ -42,6 +42,22 @@
 | Justdial | ⚠️ Timeout | Operation aborted |
 | TrademarkIndia | ❌ 404 | Page not found |
 | ZaubaCorp | ❌ 403 | Cloudflare captcha |
+| gstinfo.in | ❌ 500 | Server error |
+| LinkedIn | ❌ 404 | Page not found |
+| Hyderabad Govt | ❌ 404 | Page not found |
+| Sulekha | ❌ 403 | Azure Gateway block |
+| TradeIndia | ❌ 404 | Company not listed |
+| YellowPages | ❌ Fail | Connection failed |
+
+---
+
+## Search Status: ⚠️ ALL ONLINE SEARCHES BLOCKED
+
+**Root Cause:** Brave Search API key not configured + Captcha protection on all directories
+
+**Total Attempts:** 13
+**Successful:** 0
+**Blocked:** 13
 
 ---
 
