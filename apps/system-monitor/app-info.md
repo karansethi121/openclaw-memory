@@ -1,6 +1,7 @@
 # OpenClaw System Monitor App
 
 **Created:** 2026-02-13 07:30 AM IST
+**Updated:** 2026-02-13 11:30 AM IST (fixed for inline loading)
 **Purpose:** Canvas OS system monitoring dashboard
 
 ## App Details
@@ -8,44 +9,71 @@
 | Property | Value |
 |----------|-------|
 | **App Name** | System Monitor |
-| **Port** | 9880 |
 | **Location** | `apps/system-monitor/` |
-| **Tech Stack** | HTML, CSS, JavaScript, Chart.js |
+| **Tech Stack** | Pure HTML/CSS/JS (no dependencies) |
 
 ## Features
 
-- Gateway status indicator
+- Gateway status indicator (Online/Offline)
 - Active cron jobs count
 - Git commits today
 - Uptime tracking
-- System performance metrics
-- Cron jobs list view
+- System performance metrics (model, channel, status)
 
-## Canvas OS Integration
+## Usage Methods
 
-**API Pattern:**
+### Method 1: Direct HTML File
+Open `index.html` in browser for static preview.
+
+### Method 2: Inline Injection (No HTTP Server Required!)
+Load directly via Canvas OS without Python:
+
+```javascript
+canvas.eval javaScript="<paste inline-version.js contents>"
+```
+
+Or use data URL:
+```
+data:text/html,<paste inline-version.js html+css+js>
+```
+
+### Method 3: Server (if Python available)
+```bash
+cd apps/system-monitor && python3 -m http.server 9880
+# Then present: http://localhost:9880
+```
+
+## Canvas OS API Pattern
+
 ```javascript
 window.app = {
-  setValue: (key, val) => { /* Update single value */ },
-  loadData: (data) => { /* Update all data */ },
-  notify: (msg) => { /* Log notifications */ }
+  setValue: (key, val) => { /* Update single element */ },
+  loadData: (data) => { /* Bulk update from cron/system data */ },
+  notify: (msg) => { /* Log to console */ }
 };
 ```
 
-## Usage
+## Update Data Example
 
-1. Start HTTP server: `python3 -m http.server 9880`
-2. Present on Canvas: `canvas action=present target=node node=<node-id> url=http://localhost:9880`
-3. Update via JS: `canvas.eval javaScript="app.loadData({gateway: true, cronCount: 10})"`
+```javascript
+app.loadData({
+  gateway: true,
+  cronCount: 10,
+  gitCommits: 9,
+  uptime: '7h 32m',
+  model: 'deepseek-coder',
+  channel: 'main'
+});
+```
 
 ## Files Created
 
-- `index.html` - Main dashboard app
+- `index.html` - Static dashboard preview
+- `inline-version.js` - No-server injection ready
 - `app-info.md` - This documentation
 
 ## Next Steps
 
-- [ ] Connect to actual system API for real-time data
-- [ ] Add Chart.js visualizations for metrics
-- [ ] Present on OpenClaw canvas
-- [ ] Test live updates via canvas.eval
+- [x] Works inline without HTTP server
+- [ ] Connect to cron API for real-time data
+- [ ] Present on OpenClaw Canvas

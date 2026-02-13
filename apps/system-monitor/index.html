@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenClaw System Monitor</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a2e; color: #eee; min-height: 100vh; padding: 20px; }
-        .header { text-align: center; margin-bottom: 30px; }
-        .header h1 { font-size: 24px; color: #4fc3f7; margin-bottom: 5px; }
-        .header .time { color: #888; font-size: 14px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
-        .card { background: #16213e; border-radius: 12px; padding: 20px; text-align: center; border: 1px solid #0f3460; }
-        .card .label { font-size: 12px; color: #888; text-transform: uppercase; margin-bottom: 8px; }
-        .card .value { font-size: 32px; font-weight: bold; }
-        .card .status { font-size: 12px; margin-top: 8px; }
+        .header { text-align: center; margin-bottom: 25px; }
+        .header h1 { font-size: 22px; color: #4fc3f7; margin-bottom: 5px; }
+        .header .time { color: #888; font-size: 13px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; margin-bottom: 25px; }
+        .card { background: #16213e; border-radius: 10px; padding: 18px; text-align: center; border: 1px solid #0f3460; }
+        .card .label { font-size: 11px; color: #888; text-transform: uppercase; margin-bottom: 6px; }
+        .card .value { font-size: 28px; font-weight: bold; }
+        .card .status { font-size: 11px; margin-top: 6px; }
         .status.good { color: #4caf50; }
         .status.warning { color: #ff9800; }
         .status.error { color: #f44336; }
-        .section { background: #16213e; border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #0f3460; }
-        .section h2 { font-size: 16px; color: #4fc3f7; margin-bottom: 15px; }
-        .cron-list { display: grid; gap: 8px; }
-        .cron-item { display: flex; justify-content: space-between; padding: 10px; background: #1a1a2e; border-radius: 6px; font-size: 13px; }
-        .system-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
-        .sys-item { background: #1a1a2e; padding: 12px; border-radius: 6px; text-align: center; }
-        .sys-item .label { font-size: 11px; color: #888; }
-        .sys-item .value { font-size: 16px; font-weight: bold; margin-top: 4px; }
+        .section { background: #16213e; border-radius: 10px; padding: 18px; margin-bottom: 18px; border: 1px solid #0f3460; }
+        .section h2 { font-size: 15px; color: #4fc3f7; margin-bottom: 12px; }
+        .cron-list { display: grid; gap: 6px; }
+        .cron-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #1a1a2e; border-radius: 5px; font-size: 12px; }
+        .system-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 8px; }
+        .sys-item { background: #1a1a2e; padding: 10px; border-radius: 5px; text-align: center; }
+        .sys-item .label { font-size: 10px; color: #888; }
+        .sys-item .value { font-size: 14px; font-weight: bold; margin-top: 3px; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>🚀 OpenClaw System Monitor</h1>
-        <div class="time" id="currentTime"></div>
+        <div class="time" id="currentTime">Loading...</div>
     </div>
 
     <div class="grid">
@@ -44,17 +43,17 @@
         <div class="card">
             <div class="label">Active Jobs</div>
             <div class="value" id="cronCount">-</div>
-            <div class="status" id="cronStatus">Loading...</div>
+            <div class="status" id="cronStatus">-</div>
         </div>
         <div class="card">
-            <div class="label">Git Commits</div>
+            <div class="label">Git</div>
             <div class="value" id="gitCommits">-</div>
-            <div class="status good">Today</div>
+            <div class="status good">Commits</div>
         </div>
         <div class="card">
             <div class="label">Uptime</div>
             <div class="value" id="uptime">-</div>
-            <div class="status">Since start</div>
+            <div class="status">-</div>
         </div>
     </div>
 
@@ -82,49 +81,47 @@
 
     <div class="section">
         <h2>⏰ Cron Jobs</h2>
-        <div class="cron-list" id="cronList">Loading...</div>
+        <div class="cron-list" id="cronList">Waiting for data...</div>
     </div>
 
     <script>
-        // Canvas OS Integration
+    // Inline mode - no server needed
+    (function() {
+        var updateTime = function() {
+            document.getElementById('currentTime').innerText = new Date().toLocaleString('en-IN', {timeZone: 'Asia/Kolkata'});
+        };
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Canvas OS API
         window.app = {
             setValue: function(key, val) {
-                const el = document.getElementById(key);
+                var el = document.getElementById(key);
                 if (el) el.innerText = val;
             },
             loadData: function(data) {
+                if (data === null || data === undefined) return;
                 if (data.gateway !== undefined) {
                     document.getElementById('gatewayStatus').innerText = data.gateway ? '●' : '○';
                     document.getElementById('gatewayText').innerText = data.gateway ? 'Online' : 'Offline';
                     document.getElementById('gatewayText').className = 'status ' + (data.gateway ? 'good' : 'error');
                 }
-                if (data.cronCount !== undefined) {
-                    document.getElementById('cronCount').innerText = data.cronCount;
-                }
-                if (data.uptime !== undefined) {
-                    document.getElementById('uptime').innerText = data.uptime;
-                }
+                if (data.cronCount !== undefined) document.getElementById('cronCount').innerText = data.cronCount;
+                if (data.uptime !== undefined) document.getElementById('uptime').innerText = data.uptime;
+                if (data.gitCommits !== undefined) document.getElementById('gitCommits').innerText = data.gitCommits;
                 if (data.model) document.getElementById('model').innerText = data.model;
                 if (data.channel) document.getElementById('channel').innerText = data.channel;
                 if (data.systemStatus) document.getElementById('systemStatus').innerText = data.systemStatus;
-                if (data.cronList) {
-                    document.getElementById('cronList').innerHTML = data.cronList;
-                }
+                if (data.cronList) document.getElementById('cronList').innerHTML = data.cronList;
             },
             notify: function(msg) {
-                console.log('Notification:', msg);
+                if (console && console.log) console.log('System Monitor:', msg);
             }
         };
 
-        // Update time
-        function updateTime() {
-            document.getElementById('currentTime').innerText = new Date().toLocaleString();
-        }
-        updateTime();
-        setInterval(updateTime, 1000);
-
-        // Initial state - notify canvas ready
-        if (window.app.notify) window.app.notify('System monitor ready');
+        // Signal ready
+        if (window.app && window.app.notify) window.app.notify('Ready - inline mode');
+    })();
     </script>
 </body>
 </html>
