@@ -25,9 +25,32 @@
 | Contact | Details |
 |---------|---------|
 | **Address** | Plot No. 100, near ALEAP Industrial Estate, Pragathi Nagar, Kukatpally, Hyderabad – 500072, Telangana, India |
-| **Email** | Need to find |
-| **Phone** | Need to find |
-| **Website** | Need to find |
+| **Email** | ❌ Not found (web search blocked) |
+| **Phone** | ❌ Not found (web search blocked) |
+| **Website** | ❌ Not found (web search blocked) |
+
+---
+
+## Search Attempts (Failed)
+
+| Attempt | Status | Issue |
+|---------|--------|-------|
+| web_search (Brave) | ❌ Blocked | Missing API key |
+| Direct website | ❌ Not found | Domain doesn't resolve |
+| Google Search | ❌ Blocked | Captcha |
+| IndiaMART | ❌ 404 | Page not found |
+| Justdial | ⚠️ Timeout | Operation aborted |
+| TrademarkIndia | ❌ 404 | Page not found |
+| ZaubaCorp | ❌ 403 | Cloudflare captcha |
+
+---
+
+## Alternative Ways to Find Contact
+
+1. **Visit in person** at the ALEAP Industrial Estate address
+2. **Call ALEAP directory** for member contact details
+3. **Ask Mann Matters** directly for supplier contact
+4. **Check with local pharmacies** who might know the distributor
 
 ---
 
